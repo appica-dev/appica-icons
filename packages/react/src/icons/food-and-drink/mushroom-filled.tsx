@@ -1,0 +1,4 @@
+import { createIcon } from "../../createIcon.js";
+const MushroomFilled = createIcon("MushroomFilled", "<path d=\"M14.917 14.923v3.9c0 .76-.295 1.492-.824 2.039a2.913 2.913 0 0 1-4.064.12 2.93 2.93 0 0 1-.94-1.988l-.006-.171v-3.9zm-9.82-1.95c-.465 0-.913-.176-1.254-.492a1.85 1.85 0 0 1-.587-1.216l-.006-.144C3.25 6.224 7.165 2.25 12 2.25s8.75 3.975 8.75 8.871a1.845 1.845 0 0 1-1.703 1.846l-.144.006z\"/>");
+export { MushroomFilled, MushroomFilled as MushroomFilledIcon };
+export default MushroomFilled;

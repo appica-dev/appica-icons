@@ -1,0 +1,4 @@
+import { createIcon } from "../../createIcon.js";
+const BrandZulip = createIcon("BrandZulip", "<path d=\"M6.5 3h11C18.825 3 20 4 20 5.5c0 2-1.705 3.264-2 3.5l-4.5 4 2-5h-9a2.5 2.5 0 1 1 0-5m11 18h-11C5.175 21 4 20 4 18.5c0-2 1.705-3.264 2-3.5l4.5-4-2 5h9a2.5 2.5 0 0 1 0 5\"/>", { fill: "none", stroke: "currentColor", strokeWidth: "1.5", strokeLinecap: "round", strokeLinejoin: "round" });
+export { BrandZulip, BrandZulip as BrandZulipIcon };
+export default BrandZulip;

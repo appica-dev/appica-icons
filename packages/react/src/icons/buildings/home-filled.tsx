@@ -1,0 +1,4 @@
+import { createIcon } from "../../createIcon.js";
+const HomeFilled = createIcon("HomeFilled", "<path d=\"m12.69 2.535 8.772 8.776c.615.614.18 1.664-.689 1.664H19.8v5.85a2.926 2.926 0 0 1-2.925 2.925h-.975v-6.825a2.926 2.926 0 0 0-2.753-2.92L12.975 12h-1.95a2.924 2.924 0 0 0-2.924 2.925v6.825h-.975A2.924 2.924 0 0 1 4.2 18.825v-5.85h-.974c-.868 0-1.304-1.05-.69-1.664l8.774-8.776a.975.975 0 0 1 1.378 0m.285 11.415a.974.974 0 0 1 .975.975v6.825h-3.9v-6.825a.974.974 0 0 1 .861-.968l.114-.007z\"/>");
+export { HomeFilled, HomeFilled as HomeFilledIcon };
+export default HomeFilled;

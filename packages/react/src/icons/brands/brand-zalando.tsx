@@ -1,0 +1,4 @@
+import { createIcon } from "../../createIcon.js";
+const BrandZalando = createIcon("BrandZalando", "<path d=\"M7.53 21c-.65 0-1-.15-1.195-.27-.266-.157-.753-.563-1.197-1.747A20.6 20.6 0 0 1 4 12c.015-2.745.436-5.07 1.137-6.975.444-1.2.93-1.605 1.197-1.763C6.527 3.159 6.88 3 7.53 3c.244 0 .532.022.87.075a19.1 19.1 0 0 1 6.426 2.475h.007a19.6 19.6 0 0 1 5.287 4.508c.783.99.879 1.627.879 1.942s-.096.953-.88 1.943a19.6 19.6 0 0 1-5.286 4.5h-.007A19 19 0 0 1 8.4 20.917q-.432.079-.87.083\"/>", { fill: "none", stroke: "currentColor", strokeWidth: "1.5", strokeLinecap: "round", strokeLinejoin: "round" });
+export { BrandZalando, BrandZalando as BrandZalandoIcon };
+export default BrandZalando;

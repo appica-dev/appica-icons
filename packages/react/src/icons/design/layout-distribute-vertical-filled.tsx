@@ -1,0 +1,4 @@
+import { createIcon } from "../../createIcon.js";
+const LayoutDistributeVerticalFilled = createIcon("LayoutDistributeVerticalFilled", "<path d=\"M4.222 3.25a.97.97 0 0 1 .972.972v15.556a.972.972 0 0 1-1.944 0V4.222a.97.97 0 0 1 .972-.972M19.778 3.25a.97.97 0 0 1 .972.972v15.556a.972.972 0 1 1-1.944 0V4.222a.97.97 0 0 1 .972-.972M12.972 5.194a2.917 2.917 0 0 1 2.917 2.917v7.778a2.917 2.917 0 0 1-2.917 2.917h-1.944a2.917 2.917 0 0 1-2.917-2.917V8.11a2.917 2.917 0 0 1 2.917-2.917z\"/>");
+export { LayoutDistributeVerticalFilled, LayoutDistributeVerticalFilled as LayoutDistributeVerticalFilledIcon };
+export default LayoutDistributeVerticalFilled;

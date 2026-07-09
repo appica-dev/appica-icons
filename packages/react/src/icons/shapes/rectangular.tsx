@@ -1,0 +1,4 @@
+import { createIcon } from "../../createIcon.js";
+const Rectangular = createIcon("Rectangular", "<path d=\"M4.019 5.666C4.142 6 4.764 6 6.009 6H16c.364 0 .547 0 .715-.056M4.02 5.665c-.123-.334.363-.705 1.335-1.446l2.335-1.78c.285-.218.427-.326.596-.383S8.635 2 9 2h9.99c1.246 0 1.868 0 1.991.334M4.02 5.666v15.788M20.98 2.335c.123.334-.363.705-1.335 1.446l-2.335 1.78c-.285.218-.427.326-.596.383m4.266-3.61v16.001c.123.334-.363.705-1.335 1.446l-2.335 1.781c-.285.217-.427.326-.596.382m0-16v16M4.02 21.666c.123.334.745.334 1.99.334H16c.364 0 .547 0 .715-.056M4.02 21.666a.3.3 0 0 1 0-.213m0 .213v-.213m0 0c.096-.289.562-.644 1.335-1.233l2.335-1.781c.285-.217.427-.326.596-.382m0 0C8.453 18 8.635 18 9 18h5m-5.715.056V9\"/>", { fill: "none", stroke: "currentColor", strokeWidth: "1.5", strokeLinecap: "round", strokeLinejoin: "round" });
+export { Rectangular, Rectangular as RectangularIcon };
+export default Rectangular;

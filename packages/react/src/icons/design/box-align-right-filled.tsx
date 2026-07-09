@@ -1,0 +1,4 @@
+import { createIcon } from "../../createIcon.js";
+const BoxAlignRightFilled = createIcon("BoxAlignRightFilled", "<path d=\"M18.806 3.251h-4.862a.973.973 0 0 0-.972.972v15.555a.97.97 0 0 0 .972.972h4.861a1.944 1.944 0 0 0 1.945-1.944V5.196a1.944 1.944 0 0 0-1.945-1.945M9.093 18.806a.972.972 0 0 1 .114 1.937l-.124.007a.972.972 0 0 1-.113-1.937zM4.232 18.806a.972.972 0 0 1 .114 1.937l-.125.007a.972.972 0 0 1-.114-1.937zM4.232 13.944a.972.972 0 0 1 .114 1.937l-.125.007a.972.972 0 0 1-.114-1.937zM4.232 8.11a.972.972 0 0 1 .114 1.938l-.125.007a.972.972 0 0 1-.114-1.937zM4.232 3.25a.972.972 0 0 1 .114 1.938l-.125.006a.972.972 0 0 1-.114-1.937zM9.093 3.25a.972.972 0 0 1 .114 1.938l-.124.006a.972.972 0 0 1-.113-1.937z\"/>");
+export { BoxAlignRightFilled, BoxAlignRightFilled as BoxAlignRightFilledIcon };
+export default BoxAlignRightFilled;

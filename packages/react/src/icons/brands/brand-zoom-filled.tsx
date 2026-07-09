@@ -1,0 +1,4 @@
+import { createIcon } from "../../createIcon.js";
+const BrandZoomFilled = createIcon("BrandZoomFilled", "<path d=\"M16.526 6.236c-.7-.61-1.63-.986-2.56-.986H3.887l-.05.003-.016.002a1.6 1.6 0 0 0-.595.125c-.22.094-.415.236-.572.416-.155.178-.27.387-.337.614a1.6 1.6 0 0 0-.056.606l-.01 7.983c0 1.757 1.18 3.75 3.402 3.75h10.385a1.74 1.74 0 0 0 1.706-1.586l.007-.17v-.839l2.757 2.41A.75.75 0 0 0 21.75 18V6a.75.75 0 0 0-1.235-.572l-2.9 2.46a3.57 3.57 0 0 0-1.089-1.652\"/>");
+export { BrandZoomFilled, BrandZoomFilled as BrandZoomFilledIcon };
+export default BrandZoomFilled;

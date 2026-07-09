@@ -1,0 +1,4 @@
+import { createIcon } from "../../createIcon.js";
+const TruckReturn = createIcon("TruckReturn", "<path d=\"M5 17a2 2 0 0 0 4 0m-4 0a2 2 0 0 1 4 0m-4 0H3V6a1 1 0 0 1 1-1h9v6H8m1 6h6m0 0a2 2 0 0 0 4 0m-4 0a2 2 0 0 1 4 0m0 0h2v-6l-3-5h-5m-5 5 2 2m-2-2 2-2\"/>", { fill: "none", stroke: "currentColor", strokeWidth: "1.5", strokeLinecap: "round", strokeLinejoin: "round" });
+export { TruckReturn, TruckReturn as TruckReturnIcon };
+export default TruckReturn;

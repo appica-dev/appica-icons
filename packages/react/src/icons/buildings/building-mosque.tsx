@@ -1,0 +1,4 @@
+import { createIcon } from "../../createIcon.js";
+const BuildingMosque = createIcon("BuildingMosque", "<path d=\"M3 21h7v-2a2 2 0 0 1 4 0v2h7M4 21V11m16 10V11M4 16h3v-3m0 0h10M7 13a5 5 0 0 1 5-5m5 5v3h3m-3-3a5 5 0 0 0-5-5m0 0V6m0-4a2 2 0 1 0 2 2m7 6.5c0-.329-.077-.653-.224-.947L20 8l-.776 1.553A2.1 2.1 0 0 0 19 10.5a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5m-16 0c0-.329-.077-.653-.224-.947L4 8l-.776 1.553A2.1 2.1 0 0 0 3 10.5a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5\"/>", { fill: "none", stroke: "currentColor", strokeWidth: "1.5", strokeLinecap: "round", strokeLinejoin: "round" });
+export { BuildingMosque, BuildingMosque as BuildingMosqueIcon };
+export default BuildingMosque;

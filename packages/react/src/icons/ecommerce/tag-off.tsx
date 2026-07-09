@@ -1,0 +1,4 @@
+import { createIcon } from "../../createIcon.js";
+const TagOff = createIcon("TagOff", "<path d=\"M7.149 7.144A.498.498 0 0 0 7.5 8a.5.5 0 0 0 .341-.135m-3.958-3.99A3 3 0 0 0 3 6v5.172a2 2 0 0 0 .586 1.414l7.71 7.71a2.41 2.41 0 0 0 3.408 0L17.5 17.5m2.005-2.005.79-.79a2.41 2.41 0 0 0 0-3.41l-7.71-7.71A2 2 0 0 0 11.173 3H7M3 3l18 18\"/>", { fill: "none", stroke: "currentColor", strokeWidth: "1.5", strokeLinecap: "round", strokeLinejoin: "round" });
+export { TagOff, TagOff as TagOffIcon };
+export default TagOff;

@@ -1,0 +1,4 @@
+import { createIcon } from "../../createIcon.js";
+const SortDescendingShapesFilled = createIcon("SortDescendingShapesFilled", "<path d=\"M6.882 5.195a.974.974 0 0 1 .974.972v9.318l1.259-1.255a.974.974 0 0 1 1.285-.081l.092.08a.97.97 0 0 1 0 1.375L7.57 18.521a1 1 0 0 1-.11.094l-.106.07-.111.052-.103.034-.145.029-.114.006-.073-.003-.122-.017-.108-.029-.108-.043-.096-.05-.093-.066-.088-.077-2.92-2.917A.972.972 0 0 1 4.65 14.23l1.259 1.256V6.167a.97.97 0 0 1 .973-.972m11.684 7.777a1.95 1.95 0 0 1 1.947 1.945v3.889a1.943 1.943 0 0 1-1.947 1.944H14.67a1.95 1.95 0 0 1-1.947-1.944v-3.89a1.943 1.943 0 0 1 1.947-1.944zm-1.106-9.24 3.407 5.834a.972.972 0 0 1-.84 1.462H13.21a.975.975 0 0 1-.974-.975.97.97 0 0 1 .133-.487l3.407-5.833a.973.973 0 0 1 1.683 0\"/>");
+export { SortDescendingShapesFilled, SortDescendingShapesFilled as SortDescendingShapesFilledIcon };
+export default SortDescendingShapesFilled;

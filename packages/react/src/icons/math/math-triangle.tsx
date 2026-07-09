@@ -1,0 +1,4 @@
+import { createIcon } from "../../createIcon.js";
+const MathTriangle = createIcon("MathTriangle", "<path d=\"M16.841 19.996L7.158 20l-3.265-.004c-.334-.004-.661-.095-.949-.264s-.527-.412-.692-.702-.252-.619-.251-.953.089-.662.256-.952l8.106-13.534c.17-.281.411-.515.697-.677s.61-.246.939-.246.653.085.939.246.527.394.698.676l8.106 13.536c.167.289.255.617.256.951s-.086.662-.251.953-.404.532-.692.701-.615.261-.949.264h-3.266zM7.158 20c.062-.314.094-.638.094-.971 0-2.152-1.363-3.978-3.252-4.62m12.841 5.587a5.01 5.01 0 0 1-.094-.967c0-2.152 1.363-3.978 3.252-4.62M12 20v2m8-13l-2 1M4 9l2 1m9-4c-.852.836-1.727 1.35-3 1.35S9.852 6.836 9 6\"/>", { fill: "none", stroke: "currentColor", strokeWidth: "1.5", strokeLinecap: "round", strokeLinejoin: "round" });
+export { MathTriangle, MathTriangle as MathTriangleIcon };
+export default MathTriangle;

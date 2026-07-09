@@ -1,0 +1,4 @@
+import { createIcon } from "../../createIcon.js";
+const Underpants = createIcon("Underpants", "<path stroke-miterlimit=\"10\" d=\"M6.817 14.35 12 8.332l5.183 6.016M2.5 8.333V6h19v2.333m-19 0h19m-19 0v5.445h2.355c1.83 0 3.373 1.344 3.6 3.135C8.68 18.677 10.198 20 12 20s3.321-1.323 3.545-3.087c.227-1.791 1.77-3.135 3.6-3.135H21.5V8.333\"/>", { fill: "none", stroke: "currentColor", strokeWidth: "1.5", strokeLinecap: "round", strokeLinejoin: "round" });
+export { Underpants, Underpants as UnderpantsIcon };
+export default Underpants;

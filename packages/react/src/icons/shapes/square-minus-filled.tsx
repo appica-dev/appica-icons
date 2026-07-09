@@ -1,0 +1,4 @@
+import { createIcon } from "../../createIcon.js";
+const SquareMinusFilled = createIcon("SquareMinusFilled", "<path d=\"M18.825 2.25a2.925 2.925 0 0 1 2.925 2.925v13.65a2.925 2.925 0 0 1-2.925 2.925H5.175a2.925 2.925 0 0 1-2.925-2.925V5.175A2.925 2.925 0 0 1 5.175 2.25zm-3.9 8.775h-5.85l-.114.007a.975.975 0 0 0 .114 1.943h5.85l.114-.007a.975.975 0 0 0-.114-1.943\"/>");
+export { SquareMinusFilled, SquareMinusFilled as SquareMinusFilledIcon };
+export default SquareMinusFilled;

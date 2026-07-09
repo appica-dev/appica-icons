@@ -1,0 +1,4 @@
+import { createIcon } from "../../createIcon.js";
+const FlagCog = createIcon("FlagCog", "<path d=\"M12.886 14.173a5 5 0 0 1-.9-.705 4.98 4.98 0 0 0-3.493-1.434c-1.306 0-2.56.515-3.493 1.434m0 0V4.435A4.98 4.98 0 0 1 8.493 3c1.306 0 2.56.515 3.493 1.435a4.98 4.98 0 0 0 3.494 1.434c1.306 0 2.56-.515 3.493-1.434v6.524M5 13.469v7.025m13.974 0a2 2 0 0 1-1.412-.588 2.014 2.014 0 0 1 0-2.839 2 2 0 0 1 1.412-.587m0 4.014a2 2 0 0 0 1.411-.588 2.013 2.013 0 0 0 0-2.839 2 2 0 0 0-1.411-.587m0 4.014V22m0-5.52v-1.506m3.025 1.756-1.296.753m-3.457 2.008-1.297.753m0-3.514 1.297.753m3.457 2.008 1.297.753\"/>", { fill: "none", stroke: "currentColor", strokeWidth: "1.5", strokeLinecap: "round", strokeLinejoin: "round" });
+export { FlagCog, FlagCog as FlagCogIcon };
+export default FlagCog;

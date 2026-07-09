@@ -1,0 +1,4 @@
+import { createIcon } from "../../createIcon.js";
+const ArrowBigDownLinesFilled = createIcon("ArrowBigDownLinesFilled", "<path d=\"m9.117 8.57-.112.007a.96.96 0 0 0-.606.32.98.98 0 0 0-.243.644v1.939H5.671c-.38.001-.751.115-1.067.328a1.94 1.94 0 0 0-.708.87 1.96 1.96 0 0 0 .417 2.115l6.328 6.389a1.91 1.91 0 0 0 2.717 0l6.329-6.39a1.958 1.958 0 0 0 .417-2.115l-.066-.14a1.93 1.93 0 0 0-.707-.77 1.9 1.9 0 0 0-1.003-.286l-2.485-.001V9.54a.98.98 0 0 0-.281-.685.96.96 0 0 0-.68-.284zM14.882 2.75c.245 0 .48.095.659.265a.974.974 0 0 1-.546 1.668l-.113.007H9.117a.96.96 0 0 1-.659-.264.974.974 0 0 1 .547-1.67l.112-.006zM14.882 5.66c.245 0 .48.095.659.265a.974.974 0 0 1-.546 1.669l-.113.007H9.117a.96.96 0 0 1-.659-.265.974.974 0 0 1 .547-1.669l.112-.007z\"/>");
+export { ArrowBigDownLinesFilled, ArrowBigDownLinesFilled as ArrowBigDownLinesFilledIcon };
+export default ArrowBigDownLinesFilled;

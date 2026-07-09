@@ -1,0 +1,22 @@
+{
+  "name": "appica-icons",
+  "private": true,
+  "packageManager": "pnpm@11.8.0",
+  "engines": {
+    "node": ">=20.0.0",
+    "pnpm": ">=9.0.0"
+  },
+  "scripts": {
+    "build": "pnpm -r build",
+    "typecheck": "pnpm -r typecheck",
+    "test": "pnpm -r test",
+    "clean": "pnpm -r clean",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "pack:react": "pnpm --filter @appica/icons-react build && pnpm --filter @appica/icons-react exec pnpm pack",
+    "release": "pnpm --filter @appica/icons-react publish"
+  },
+  "devDependencies": {
+    "prettier": "^3.9.4"
+  }
+}

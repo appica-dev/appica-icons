@@ -1,0 +1,4 @@
+import { createIcon } from "../../createIcon.js";
+const ShieldQuestion = createIcon("ShieldQuestion", "<path d=\"M15.063 19.723c-.95.557-1.982.986-3.068 1.268a12.02 12.02 0 0 1-7.434-5.697 11.98 11.98 0 0 1-1.073-9.296c3.118.143 6.17-.933 8.507-2.998a12.02 12.02 0 0 0 8.508 2.998c.51 1.738.617 3.549.333 5.3M19.002 21.99V22m0-3.008a2.01 2.01 0 0 0 1.942-1.532 2 2 0 0 0-1.028-2.248 1.984 1.984 0 0 0-2.416.482\"/>", { fill: "none", stroke: "currentColor", strokeWidth: "1.5", strokeLinecap: "round", strokeLinejoin: "round" });
+export { ShieldQuestion, ShieldQuestion as ShieldQuestionIcon };
+export default ShieldQuestion;

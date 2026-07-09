@@ -1,0 +1,4 @@
+import { createIcon } from "../../createIcon.js";
+const PackageOpen = createIcon("PackageOpen", "<path d=\"M9.013 20.544C5.338 18.958 3.5 18.165 3.5 16.831V7.96m5.513 12.584c1.476.637 2.215.956 2.987.956m-2.987-.956zM3.5 7.96c0 .574.757.936 2.271 1.66l2.759 1.32c1.703.815 2.554 1.222 3.47 1.222M3.5 7.96c0-.574.757-.936 2.271-1.66M12 12.162V21.5m0-9.338c.916 0 1.767-.407 3.47-1.222l2.759-1.32c1.514-.724 2.271-1.087 2.271-1.66M12 21.5c.773 0 1.511-.319 2.987-.956 3.675-1.586 5.513-2.379 5.513-3.713V7.96m0 0c0-.574-.757-.936-2.271-1.66M6.647 13.246l1.883.901M12 2.5v1.9m3.778-.95l-1.417 1.9m-6.139-1.9l1.417 1.9\"/>", { fill: "none", stroke: "currentColor", strokeWidth: "1.5", strokeLinecap: "round", strokeLinejoin: "round" });
+export { PackageOpen, PackageOpen as PackageOpenIcon };
+export default PackageOpen;

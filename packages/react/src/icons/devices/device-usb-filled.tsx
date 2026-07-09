@@ -1,0 +1,4 @@
+import { createIcon } from "../../createIcon.js";
+const DeviceUsbFilled = createIcon("DeviceUsbFilled", "<path d=\"M14.875 2.25a.95.95 0 0 1 .678.286c.18.182.28.43.28.689v3.9h.959a.95.95 0 0 1 .677.286c.18.182.281.43.281.689v7.8c0 1.551-.606 3.04-1.684 4.137A5.7 5.7 0 0 1 12 21.75a5.7 5.7 0 0 1-4.066-1.713A5.9 5.9 0 0 1 6.25 15.9V8.1c0-.259.101-.507.28-.69a.95.95 0 0 1 .678-.285h.959v-3.9c0-.259.1-.507.28-.69a.95.95 0 0 1 .678-.285zm-.958 1.95h-3.834v2.925h3.834z\"/>");
+export { DeviceUsbFilled, DeviceUsbFilled as DeviceUsbFilledIcon };
+export default DeviceUsbFilled;

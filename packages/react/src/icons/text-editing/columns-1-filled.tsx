@@ -1,0 +1,4 @@
+import { createIcon } from "../../createIcon.js";
+const Columns1Filled = createIcon("Columns1Filled", "<path d=\"M17.813 2.25c.513 0 1.006.205 1.37.571.363.366.567.862.567 1.379v15.6c0 .517-.204 1.013-.567 1.379a1.93 1.93 0 0 1-1.37.571H6.188a1.93 1.93 0 0 1-1.37-.571A1.96 1.96 0 0 1 4.25 19.8V4.2c0-.517.204-1.013.567-1.379a1.93 1.93 0 0 1 1.37-.571z\"/>");
+export { Columns1Filled, Columns1Filled as Columns1FilledIcon };
+export default Columns1Filled;

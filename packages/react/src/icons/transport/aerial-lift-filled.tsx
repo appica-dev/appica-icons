@@ -1,0 +1,4 @@
+import { createIcon } from "../../createIcon.js";
+const AerialLiftFilled = createIcon("AerialLiftFilled", "<path d=\"M19.636 2.26a.97.97 0 0 1 1.107.843.974.974 0 0 1-.866 1.09l-6.918.867v2.06h4.079a.97.97 0 0 1 .668.267l.084.09c2.709 3.327 2.638 9.7-.22 12.944a.97.97 0 0 1-.727.329H7.031a.97.97 0 0 1-.741-.344c-2.777-3.283-2.777-9.657 0-12.942a.97.97 0 0 1 .74-.343h3.988V5.303L4.34 6.14a.97.97 0 0 1-1.063-.734l-.02-.112A.975.975 0 0 1 4.1 4.208l7.764-.974h.01l.009-.002zm-8.618 6.808H7.505l-.05.07c-.696 1.014-1.115 2.346-1.254 3.742l-.007.082h4.824zm5.532 0h-3.59v3.894h4.834l-.005-.07c-.12-1.398-.518-2.737-1.196-3.762z\"/>");
+export { AerialLiftFilled, AerialLiftFilled as AerialLiftFilledIcon };
+export default AerialLiftFilled;

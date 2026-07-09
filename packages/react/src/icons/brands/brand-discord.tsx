@@ -1,0 +1,4 @@
+import { createIcon } from "../../createIcon.js";
+const BrandDiscord = createIcon("BrandDiscord", "<path d=\"M15.462 17c0 1 1.483 3 1.978 3 1.484 0 2.802-1.667 3.462-3 .66-1.667.494-5.833-1.484-11.5-1.44-1.015-2.967-1.34-4.45-1.5l-.962 1.923a11.7 11.7 0 0 0-4.009 0L9.033 4c-1.484.16-3.01.485-4.451 1.5-1.978 5.667-2.144 9.833-1.484 11.5.66 1.333 1.978 3 3.462 3 .495 0 1.978-2 1.978-3m-1.483-.5c3.461 1 6.429 1 9.89 0M8.044 12c0 .265.104.52.29.707a.984.984 0 0 0 1.398 0 1.006 1.006 0 0 0 0-1.414.984.984 0 0 0-1.399 0c-.185.187-.29.442-.29.707m5.934 0c0 .265.104.52.29.707a.984.984 0 0 0 1.399 0 1.006 1.006 0 0 0 0-1.414.984.984 0 0 0-1.4 0c-.185.187-.289.442-.289.707\"/>", { fill: "none", stroke: "currentColor", strokeWidth: "1.5", strokeLinecap: "round", strokeLinejoin: "round" });
+export { BrandDiscord, BrandDiscord as BrandDiscordIcon };
+export default BrandDiscord;

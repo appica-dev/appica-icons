@@ -1,0 +1,4 @@
+import { createIcon } from "../../createIcon.js";
+const MailboxOff = createIcon("MailboxOff", "<path d=\"M10 21v-6.5A3.5 3.5 0 0 0 6.5 11m0 0A3.5 3.5 0 0 0 3 14.5V21h18L3 3m3.5 8H11m10 6v-2a4 4 0 0 0-4-4h-2m-3-3V3h4l2 2-2 2h-4m-6 8h1\"/>", { fill: "none", stroke: "currentColor", strokeWidth: "1.5", strokeLinecap: "round", strokeLinejoin: "round" });
+export { MailboxOff, MailboxOff as MailboxOffIcon };
+export default MailboxOff;

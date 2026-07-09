@@ -1,0 +1,4 @@
+import { createIcon } from "../../createIcon.js";
+const BuildingMayanPyramid = createIcon("BuildingMayanPyramid", "<path d=\"M8.5 17H4m0 0c-1.655 0-2 .345-2 2v1c0 1.655.345 2 2 2h16c1.655 0 2-.345 2-2v-1c0-1.655-.345-2-2-2M4 17v-3c0-1.655.345-2 2-2m9.5 5H20m0 0v-3c0-1.655-.345-2-2-2m-9 0H6m0 0V9c0-1.655.345-2 2-2h8c1.655 0 2 .345 2 2v3m-3 0h3M9 7V4c0-1.655.345-2 2-2h2c1.655 0 2 .345 2 2v3m-1.5 0L16 22M10.5 7 8 22\"/>", { fill: "none", stroke: "currentColor", strokeWidth: "1.5", strokeLinecap: "round", strokeLinejoin: "round" });
+export { BuildingMayanPyramid, BuildingMayanPyramid as BuildingMayanPyramidIcon };
+export default BuildingMayanPyramid;

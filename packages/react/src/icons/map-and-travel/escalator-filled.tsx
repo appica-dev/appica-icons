@@ -1,0 +1,4 @@
+import { createIcon } from "../../createIcon.js";
+const EscalatorFilled = createIcon("EscalatorFilled", "<path d=\"M19.33 4.25c.907 0 1.777.357 2.418.993a3.38 3.38 0 0 1 1.002 2.398c0 .899-.36 1.761-1.002 2.397a3.44 3.44 0 0 1-2.419.993h-1.06l-7.936 7.867a2.94 2.94 0 0 1-1.88.845l-.194.007H4.67a3.44 3.44 0 0 1-2.418-.993 3.38 3.38 0 0 1-1.002-2.398c0-.899.36-1.761 1.002-2.397a3.44 3.44 0 0 1 2.418-.993h2.037l7.939-7.867a2.94 2.94 0 0 1 1.879-.845l.193-.007z\"/>");
+export { EscalatorFilled, EscalatorFilled as EscalatorFilledIcon };
+export default EscalatorFilled;

@@ -1,0 +1,4 @@
+import { createIcon } from "../../createIcon.js";
+const ShieldHeart = createIcon("ShieldHeart", "<path d=\"M11.993 21a12 12 0 0 1-7.432-5.7A12 12 0 0 1 3.487 6a12 12 0 0 0 8.506-3 12.01 12.01 0 0 0 8.505 3c.477 1.622.606 3.325.379 5m-2.88 11 3.352-3.284a2.144 2.144 0 0 0 .005-3.071 2.244 2.244 0 0 0-3.131-.006l-.224.22-.223-.22a2.244 2.244 0 0 0-3.13-.006 2.143 2.143 0 0 0-.006 3.071z\"/>", { fill: "none", stroke: "currentColor", strokeWidth: "1.5", strokeLinecap: "round", strokeLinejoin: "round" });
+export { ShieldHeart, ShieldHeart as ShieldHeartIcon };
+export default ShieldHeart;

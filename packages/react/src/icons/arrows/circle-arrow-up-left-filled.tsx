@@ -1,0 +1,4 @@
+import { createIcon } from "../../createIcon.js";
+const CircleArrowUpLeftFilled = createIcon("CircleArrowUpLeftFilled", "<path d=\"M16.875 3.556a9.75 9.75 0 1 1-14.62 8.76L2.25 12l.005-.316a9.75 9.75 0 0 1 14.62-8.128M14.925 8.1h-5.85l-.114.007-.145.028-.103.034-.11.053-.108.069a1 1 0 0 0-.11.095l-.077.087-.066.094-.05.095-.043.108-.03.109-.016.123-.003 5.923.007.114a.975.975 0 0 0 .968.86l.114-.006a.976.976 0 0 0 .861-.968V11.43l4.186 4.184.091.081a.974.974 0 0 0 1.287-1.46L11.43 10.05h3.495l.114-.007a.975.975 0 0 0-.114-1.943\"/>");
+export { CircleArrowUpLeftFilled, CircleArrowUpLeftFilled as CircleArrowUpLeftFilledIcon };
+export default CircleArrowUpLeftFilled;

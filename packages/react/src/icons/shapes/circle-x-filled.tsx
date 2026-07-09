@@ -1,0 +1,4 @@
+import { createIcon } from "../../createIcon.js";
+const CircleXFilled = createIcon("CircleXFilled", "<path d=\"M16.875 3.556a9.75 9.75 0 1 1-14.62 8.76L2.25 12l.005-.316a9.75 9.75 0 0 1 14.62-8.128m-6.327 5.655a.975.975 0 0 0-1.187 1.528L10.62 12l-1.26 1.262-.081.091a.975.975 0 0 0 1.46 1.287L12 13.38l1.26 1.26.092.081a.974.974 0 0 0 1.287-1.46L13.38 12l1.26-1.26.081-.092a.975.975 0 0 0-1.46-1.287L12 10.62l-1.26-1.26-.092-.081z\"/>");
+export { CircleXFilled, CircleXFilled as CircleXFilledIcon };
+export default CircleXFilled;

@@ -1,0 +1,4 @@
+import { createIcon } from "../../createIcon.js";
+const ArrowBigLeftFilled = createIcon("ArrowBigLeftFilled", "<path d=\"M9.207 4.313 2.818 10.64a1.913 1.913 0 0 0 0 2.717l6.39 6.329a1.958 1.958 0 0 0 2.115.417l.14-.066c.318-.16.585-.406.77-.707.187-.302.286-.65.286-1.003v-2.485h6.79a1.95 1.95 0 0 0 1.373-.563c.364-.36.568-.849.568-1.359v-3.843l-.005-.144a1.92 1.92 0 0 0-.615-1.265 1.95 1.95 0 0 0-1.32-.513h-6.79V5.67c-.001-.38-.115-.751-.328-1.067a1.94 1.94 0 0 0-.87-.708 1.96 1.96 0 0 0-2.115.417\"/>");
+export { ArrowBigLeftFilled, ArrowBigLeftFilled as ArrowBigLeftFilledIcon };
+export default ArrowBigLeftFilled;

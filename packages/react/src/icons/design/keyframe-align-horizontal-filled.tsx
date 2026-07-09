@@ -1,0 +1,4 @@
+import { createIcon } from "../../createIcon.js";
+const KeyframeAlignHorizontalFilled = createIcon("KeyframeAlignHorizontalFilled", "<path d=\"M12 6.25c-.613 0-1.184.288-1.566.773l-2.836 3.592a2.27 2.27 0 0 0-.01 2.756l2.846 3.606c.38.484.953.773 1.566.773s1.184-.288 1.566-.773l2.836-3.592a2.27 2.27 0 0 0 .01-2.756l-2.846-3.606a2 2 0 0 0-.691-.566A2 2 0 0 0 12 6.25M5.174 11.042c.249 0 .488.094.669.261a.948.948 0 0 1 .078 1.312.98.98 0 0 1-.633.337l-.114.006h-1.95a.98.98 0 0 1-.668-.261.948.948 0 0 1-.078-1.312.98.98 0 0 1 .632-.337l.114-.006zM20.776 11.042c.248 0 .488.094.668.261a.947.947 0 0 1 .078 1.312.98.98 0 0 1-.632.337l-.114.006h-1.95a.99.99 0 0 1-.669-.261.948.948 0 0 1-.078-1.312.98.98 0 0 1 .633-.337l.114-.006z\"/>");
+export { KeyframeAlignHorizontalFilled, KeyframeAlignHorizontalFilled as KeyframeAlignHorizontalFilledIcon };
+export default KeyframeAlignHorizontalFilled;

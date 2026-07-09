@@ -1,0 +1,4 @@
+import { createIcon } from "../../createIcon.js";
+const TimelineEventFilled = createIcon("TimelineEventFilled", "<path d=\"M12 16.393c1.27 0 2.35.815 2.751 1.953h5.027a.978.978 0 0 1 0 1.952H14.75a2.93 2.93 0 0 1-1.066 1.415 2.91 2.91 0 0 1-4.434-1.415H4.222a.97.97 0 0 1-.972-.976.98.98 0 0 1 .972-.976H9.25a2.93 2.93 0 0 1 1.066-1.416A2.9 2.9 0 0 1 12 16.393M16.861 1.75c.516 0 1.01.206 1.375.572s.57.863.57 1.38v7.81c0 .518-.205 1.015-.57 1.38a1.94 1.94 0 0 1-1.375.572h-2.514l-1.66 1.667a.97.97 0 0 1-1.283.08l-.091-.08-1.66-1.667H7.138a1.94 1.94 0 0 1-1.323-.52 1.96 1.96 0 0 1-.617-1.286l-.005-.146v-7.81c0-.517.205-1.014.57-1.38a1.94 1.94 0 0 1 1.375-.572z\"/>");
+export { TimelineEventFilled, TimelineEventFilled as TimelineEventFilledIcon };
+export default TimelineEventFilled;

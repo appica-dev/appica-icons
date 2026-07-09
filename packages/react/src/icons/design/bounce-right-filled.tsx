@@ -1,0 +1,4 @@
+import { createIcon } from "../../createIcon.js";
+const BounceRightFilled = createIcon("BounceRightFilled", "<path d=\"M14.084 11.516a.972.972 0 0 1 1.666.997c-1.46 2.431-2.343 4.746-2.79 7.425-.156.928-1.408 1.116-1.829.275-2.003-4-3.75-4.83-6.601-3.88a.973.973 0 0 1-1.177-1.356.97.97 0 0 1 .562-.487c3.111-1.035 5.499-.362 7.586 2.546l.089.126.01-.039c.508-1.774 1.232-3.445 2.21-5.144zM17.833 4.25a2.92 2.92 0 0 0-2.694 1.797 2.907 2.907 0 0 0 1.578 3.805 2.92 2.92 0 0 0 3.179-.632 2.91 2.91 0 0 0-2.063-4.97\"/>");
+export { BounceRightFilled, BounceRightFilled as BounceRightFilledIcon };
+export default BounceRightFilled;

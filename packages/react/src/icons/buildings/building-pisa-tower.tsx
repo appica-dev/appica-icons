@@ -1,0 +1,4 @@
+import { createIcon } from "../../createIcon.js";
+const BuildingPisaTower = createIcon("BuildingPisaTower", "<path d=\"M19.038 6.374l-1.289 5.022m1.289-5.022l-1.925-.538m1.925.538l.962.269m-2.252 4.753L9.087 8.974m8.661 2.422l-1.289 5.022m1.289-5.022l.962.269M9.087 8.974l1.289-5.022M9.087 8.974l-1.289 5.022m1.289-5.022l-.962-.269m1.289-5.022l.962.269 1.925.538 4.812 1.346M12.301 4.49l.444-1.732a1 1 0 0 1 1.234-.721l2.884.806c.527.147.839.695.702 1.231l-.452 1.762m-.654 10.582l-4.336-1.213m4.336 1.213L15.283 21m1.176-4.582l.962.269m-5.299-1.482l-4.324-1.209m4.324 1.209l-.011.037m.011-.037l.443-1.582m-4.767.372L6 21m1.798-7.004l-.962-.269M15.283 21H10.5m4.783 0H22m-11.5 0H6m4.5 0l.56-2M6 21H2m11.522-10.792L14 8.5\"/>", { fill: "none", stroke: "currentColor", strokeWidth: "1.5", strokeLinecap: "round", strokeLinejoin: "round" });
+export { BuildingPisaTower, BuildingPisaTower as BuildingPisaTowerIcon };
+export default BuildingPisaTower;

@@ -1,0 +1,4 @@
+import { createIcon } from "../../createIcon.js";
+const BoxMultipleFilled = createIcon("BoxMultipleFilled", "<path d=\"M6.15 5.825A3.575 3.575 0 0 1 9.725 2.25h8.45a3.575 3.575 0 0 1 3.575 3.575v8.45a3.575 3.575 0 0 1-3.575 3.575h-8.45a3.575 3.575 0 0 1-3.575-3.575z\"/><path d=\"M2.25 9.075c0-1.067.52-1.782 1.476-2.315a.975.975 0 0 1 .948 1.705c-.388.215-.474.333-.474.61v9.75c0 .534.44.975.975.975h9.748c.312 0 .603-.15.785-.397l.063-.097a.975.975 0 0 1 1.695.965 2.93 2.93 0 0 1-2.541 1.479h-9.75a2.93 2.93 0 0 1-2.925-2.925z\"/>");
+export { BoxMultipleFilled, BoxMultipleFilled as BoxMultipleFilledIcon };
+export default BoxMultipleFilled;

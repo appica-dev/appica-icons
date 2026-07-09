@@ -1,0 +1,4 @@
+import { createIcon } from "../../createIcon.js";
+const PanFilled = createIcon("PanFilled", "<path d=\"M8.295 10.912a2.36 2.36 0 0 0-.555-2.401L5.193 5.934a2.29 2.29 0 0 0-3.266 0 2.356 2.356 0 0 0 0 3.305l2.546 2.576a2.29 2.29 0 0 0 2.374.562l1.576 1.594a2 2 0 0 0-.007.14c0 2.887 1.887 5.639 4.665 5.639h5.005c2.777 0 4.664-2.752 4.664-5.639 0-.662-.46-1.611-1.479-1.611H9.865z\"/>");
+export { PanFilled, PanFilled as PanFilledIcon };
+export default PanFilled;

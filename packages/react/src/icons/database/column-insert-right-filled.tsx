@@ -1,0 +1,4 @@
+import { createIcon } from "../../createIcon.js";
+const ColumnInsertRightFilled = createIcon("ColumnInsertRightFilled", "<path d=\"M17.813 12.972v.972a.97.97 0 0 1-.97.973.97.97 0 0 1-.968-.973v-.972h-.969a.97.97 0 0 1-.969-.972.97.97 0 0 1 .97-.972h.968v-.972a.97.97 0 0 1 .969-.973.97.97 0 0 1 .968.973v.972h.97a.97.97 0 0 1 .968.972.97.97 0 0 1-.969.972zM4.25 18.806c0 .515.204 1.01.568 1.374.363.365.856.57 1.37.57h3.875c.513 0 1.006-.205 1.37-.57.363-.364.567-.859.567-1.374V5.194c0-.515-.204-1.01-.568-1.374a1.93 1.93 0 0 0-1.37-.57H6.188c-.514 0-1.007.205-1.37.57-.364.364-.568.859-.568 1.374z\"/>");
+export { ColumnInsertRightFilled, ColumnInsertRightFilled as ColumnInsertRightFilledIcon };
+export default ColumnInsertRightFilled;

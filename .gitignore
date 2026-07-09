@@ -1,0 +1,71 @@
+# Dependencies
+node_modules/
+package-lock.json
+yarn.lock
+
+# Build outputs
+dist/
+build/
+*.tsbuildinfo
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# OS — macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# OS — Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# IDE — JetBrains (IntelliJ, WebStorm, etc.)
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# IDE — VS Code
+.vscode/
+
+# IDE — Vim / Emacs
+*.swp
+*.swo
+*~
+\#*\#
+
+# AI / LLM agents
+.claude/
+.cursor/
+.cursorignore
+.cursorules
+.aider*
+.continue/
+.windsurfrules
+.github/copilot-instructions.md
+
+# Monorepo tooling
+.turbo/
+.nx/
+.changeset/*.md
+
+# Packed tarballs
+*.tgz
+
+# Working dir
+.tmp/

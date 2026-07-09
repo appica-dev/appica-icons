@@ -1,0 +1,4 @@
+import { createIcon } from "../../createIcon.js";
+const HighlightOff = createIcon("HighlightOff", "<path d=\"m9 9-6 6v4h4l6-6m2-2 2.503-2.503a2.829 2.829 0 0 0-4-4l-2.497 2.497M12.5 5.5l4 4m-12 4 4 4M19 15h2v2m-2 2h-6l3-3M3 3l18 18\"/>", { fill: "none", stroke: "currentColor", strokeWidth: "1.5", strokeLinecap: "round", strokeLinejoin: "round" });
+export { HighlightOff, HighlightOff as HighlightOffIcon };
+export default HighlightOff;

@@ -1,0 +1,4 @@
+import { createIcon } from "../../createIcon.js";
+const ShieldStar = createIcon("ShieldStar", "<path d=\"M11.136 20.743a12 12 0 0 1-6.789-5.836A12 12 0 0 1 3.487 6a12.01 12.01 0 0 0 8.506-3A12.01 12.01 0 0 0 20.5 6c.504 1.716.614 3.505.343 5.237m-3.045 9.58-2.174 1.138a.393.393 0 0 1-.568-.41l.415-2.411-1.758-1.707a.39.39 0 0 1 .217-.665l2.43-.352 1.086-2.193a.392.392 0 0 1 .703 0l1.087 2.193 2.43.352a.39.39 0 0 1 .216.665l-1.758 1.707.415 2.41a.39.39 0 0 1-.568.41z\"/>", { fill: "none", stroke: "currentColor", strokeWidth: "1.5", strokeLinecap: "round", strokeLinejoin: "round" });
+export { ShieldStar, ShieldStar as ShieldStarIcon };
+export default ShieldStar;

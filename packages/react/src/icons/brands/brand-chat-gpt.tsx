@@ -1,0 +1,4 @@
+import { createIcon } from "../../createIcon.js";
+const BrandChatGpt = createIcon("BrandChatGpt", "<path d=\"M11.745 14.85 6.905 12V7c0-2.21 1.825-4 4.076-4 1.397 0 2.63.69 3.365 1.741M9.6 19.18a4.1 4.1 0 0 0 3.42 1.822c2.25 0 4.076-1.791 4.076-4v-5L12.16 9.096M9.451 13.5V7.67l4.413-2.5c1.95-1.105 4.443-.45 5.569 1.463a3.93 3.93 0 0 1 .076 3.866m-15.018 3a3.93 3.93 0 0 0 .075 3.867c1.126 1.913 3.62 2.568 5.569 1.464l4.413-2.5.096-5.596m2.451 6.897a4.09 4.09 0 0 0 3.357-1.997c1.126-1.913.458-4.36-1.492-5.464l-4.413-2.5-5.059 2.755M6.905 6.37a4.09 4.09 0 0 0-3.358 1.997c-1.126 1.914-.458 4.36 1.492 5.464l4.413 2.5 5.048-2.75\"/>", { fill: "none", stroke: "currentColor", strokeWidth: "1.5", strokeLinecap: "round", strokeLinejoin: "round" });
+export { BrandChatGpt, BrandChatGpt as BrandChatGptIcon };
+export default BrandChatGpt;

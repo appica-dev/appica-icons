@@ -1,0 +1,4 @@
+import { createIcon } from "../../createIcon.js";
+const ShieldCog = createIcon("ShieldCog", "<path d=\"M11.978 21.462a11.9 11.9 0 0 1-4.288-2.15 12.2 12.2 0 0 1-3.132-3.696 12.5 12.5 0 0 1-1.48-4.658 12.6 12.6 0 0 1 .409-4.881A11.8 11.8 0 0 0 11.977 3a11.8 11.8 0 0 0 8.492 3.077c.567 1.982.634 4.058.222 6.04m-1.72 9.345c-.53 0-1.038-.217-1.413-.601a2.08 2.08 0 0 1-.585-1.45c0-.545.21-1.067.585-1.451s.883-.601 1.413-.601m0 4.102c.53 0 1.038-.216 1.413-.6a2.08 2.08 0 0 0 .585-1.45 2.08 2.08 0 0 0-.585-1.451 1.97 1.97 0 0 0-1.413-.601m0 4.102V23m0-5.641V15.82M22 17.615l-1.298.77m-3.459 2.05-1.299.77m0-3.59 1.299.77m3.46 2.05 1.298.77\"/>", { fill: "none", stroke: "currentColor", strokeWidth: "1.5", strokeLinecap: "round", strokeLinejoin: "round" });
+export { ShieldCog, ShieldCog as ShieldCogIcon };
+export default ShieldCog;

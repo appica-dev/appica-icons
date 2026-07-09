@@ -1,0 +1,4 @@
+import { createIcon } from "../../createIcon.js";
+const BrandWindowsFilled = createIcon("BrandWindowsFilled", "<path d=\"M21.25 13.032v5.136c0 1.613-1.283 2.91-2.79 3.003l-.117.003-.043.018a1 1 0 0 1-.345.058l-.121-.008-4.806-.601v-7.61zm-10.278 0v7.352l-5.447-.68c-1.556-.155-2.775-1.42-2.775-2.974v-3.698zm0-9.408v7.353H2.75V7.28c0-1.494 1.126-2.72 2.575-2.948zM21.25 5.738v5.24h-8.222V3.365l4.848-.605c1.808-.149 3.374 1.222 3.374 2.977\"/>");
+export { BrandWindowsFilled, BrandWindowsFilled as BrandWindowsFilledIcon };
+export default BrandWindowsFilled;

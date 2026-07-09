@@ -1,0 +1,4 @@
+import { createIcon } from "../../createIcon.js";
+const CategoryFilled = createIcon("CategoryFilled", "<path d=\"M10.056 3.25H4.222a.97.97 0 0 0-.972.972v5.834a.97.97 0 0 0 .972.972h5.834a.97.97 0 0 0 .972-.972V4.222a.97.97 0 0 0-.972-.972M19.778 3.25h-5.834a.97.97 0 0 0-.972.972v5.834a.97.97 0 0 0 .972.972h5.834a.97.97 0 0 0 .972-.972V4.222a.97.97 0 0 0-.972-.972M10.056 12.972H4.222a.97.97 0 0 0-.972.972v5.834a.97.97 0 0 0 .972.972h5.834a.97.97 0 0 0 .972-.972v-5.834a.97.97 0 0 0-.972-.972M16.861 12.972a3.889 3.889 0 1 1-3.884 4.084l-.005-.195.005-.194a3.89 3.89 0 0 1 3.884-3.695\"/>");
+export { CategoryFilled, CategoryFilled as CategoryFilledIcon };
+export default CategoryFilled;

@@ -1,0 +1,4 @@
+import { createIcon } from "../../createIcon.js";
+const UserSquareRounded = createIcon("UserSquareRounded", "<path d=\"M6 20.05V20a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v.05M12 13a3 3 0 1 0 0-6 3 3 0 0 0 0 6m0-10c7.2 0 9 1.8 9 9s-1.8 9-9 9-9-1.8-9-9 1.8-9 9-9\"/>", { fill: "none", stroke: "currentColor", strokeWidth: "1.5", strokeLinecap: "round", strokeLinejoin: "round" });
+export { UserSquareRounded, UserSquareRounded as UserSquareRoundedIcon };
+export default UserSquareRounded;

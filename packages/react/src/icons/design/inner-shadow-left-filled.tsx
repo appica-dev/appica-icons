@@ -1,0 +1,4 @@
+import { createIcon } from "../../createIcon.js";
+const InnerShadowLeftFilled = createIcon("InnerShadowLeftFilled", "<path d=\"M5.106 5.106c3.807-3.808 9.98-3.808 13.788 0s3.808 9.98 0 13.788-9.98 3.808-13.788 0-3.808-9.98 0-13.788m3.446 2.068a.975.975 0 0 0-1.378 0 6.825 6.825 0 0 0 0 9.652.975.975 0 1 0 1.378-1.378 4.875 4.875 0 0 1 0-6.896.975.975 0 0 0 0-1.378\"/>");
+export { InnerShadowLeftFilled, InnerShadowLeftFilled as InnerShadowLeftFilledIcon };
+export default InnerShadowLeftFilled;

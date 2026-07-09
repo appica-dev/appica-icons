@@ -1,0 +1,4 @@
+import { createIcon } from "../../createIcon.js";
+const RowInsertTopFilled = createIcon("RowInsertTopFilled", "<path d=\"M11.028 6.188v-.97A.97.97 0 0 1 12 4.25a.97.97 0 0 1 .972.969v.968h.972a.97.97 0 0 1 .973.97.97.97 0 0 1-.973.968h-.972v.969a.97.97 0 0 1-.972.969.97.97 0 0 1-.972-.97v-.968h-.972a.97.97 0 0 1-.973-.969.97.97 0 0 1 .973-.968zM20.75 13.938c0-.514-.205-1.007-.57-1.37A1.95 1.95 0 0 0 18.806 12H5.194c-.515 0-1.01.204-1.374.568-.365.363-.57.856-.57 1.37v3.874c0 .514.205 1.007.57 1.37.364.364.859.568 1.374.568h13.612c.515 0 1.01-.204 1.374-.568.365-.363.57-.856.57-1.37z\"/>");
+export { RowInsertTopFilled, RowInsertTopFilled as RowInsertTopFilledIcon };
+export default RowInsertTopFilled;

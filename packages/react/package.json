@@ -1,0 +1,82 @@
+{
+  "name": "@appica/icons-react",
+  "version": "1.0.0",
+  "description": "Tree-shakeable SVG icon components for React — use standalone or as part of the Appica UI.",
+  "license": "MIT",
+  "homepage": "https://appica.dev/ui/icons",
+  "author": {
+    "name": "Appica",
+    "url": "https://appica.dev"
+  },
+  "keywords": [
+    "icons",
+    "icon",
+    "svg",
+    "react",
+    "react-components",
+    "typescript",
+    "ui-icons",
+    "appica",
+    "ui-components"
+  ],
+  "type": "module",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "sideEffects": false,
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "bugs": {
+    "url": "https://github.com/appica-dev/appica-icons/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/appica-dev/appica-icons.git",
+    "directory": "packages/react"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "clean": "rm -rf dist src/icons",
+    "codegen": "tsx scripts/build.ts",
+    "build": "pnpm run codegen && tsup",
+    "build:lib": "tsup",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "prepublishOnly": "pnpm run clean && pnpm run build && pnpm run test"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/react": "^16.3.2",
+    "@types/node": "^26.1.0",
+    "@types/react": "^19.2.17",
+    "jsdom": "^29.1.1",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7",
+    "tsup": "^8.5.1",
+    "tsx": "^4.23.0",
+    "typescript": "^6.0.3",
+    "vite": "^8.1.3",
+    "vitest": "^4.1.10"
+  },
+  "peerDependencies": {
+    "@types/react": "^19.0.0",
+    "react": "^19.0.0"
+  },
+  "peerDependenciesMeta": {
+    "@types/react": {
+      "optional": true
+    }
+  }
+}

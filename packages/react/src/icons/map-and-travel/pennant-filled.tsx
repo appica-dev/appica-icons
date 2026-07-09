@@ -1,0 +1,4 @@
+import { createIcon } from "../../createIcon.js";
+const PennantFilled = createIcon("PennantFilled", "<path d=\"M10.134 2.25c.235 0 .463.088.639.246a.98.98 0 0 1 .316.615l.006.114v.341L19.18 7.21c.723.326.76 1.33.109 1.726l-.11.056-8.083 3.642V19.8h.962c.245 0 .48.095.66.266a.981.981 0 0 1-.547 1.677l-.113.007H8.211a.96.96 0 0 1-.66-.266.98.98 0 0 1 .547-1.677l.113-.007h.961V3.225c0-.259.102-.507.282-.69a.96.96 0 0 1 .68-.285\"/>");
+export { PennantFilled, PennantFilled as PennantFilledIcon };
+export default PennantFilled;

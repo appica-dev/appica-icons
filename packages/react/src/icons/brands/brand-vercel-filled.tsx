@@ -1,0 +1,4 @@
+import { createIcon } from "../../createIcon.js";
+const BrandVercelFilled = createIcon("BrandVercelFilled", "<path d=\"M11.164 3.72A.97.97 0 0 1 12 3.25a.98.98 0 0 1 .836.47l8.775 14.56a.967.967 0 0 1-.345 1.338 1 1 0 0 1-.49.132H3.224a.98.98 0 0 1-.847-.492.97.97 0 0 1 .012-.978z\"/>");
+export { BrandVercelFilled, BrandVercelFilled as BrandVercelFilledIcon };
+export default BrandVercelFilled;

@@ -1,0 +1,4 @@
+import { createIcon } from "../../createIcon.js";
+const ArrowLeftRhombusFilled = createIcon("ArrowLeftRhombusFilled", "<path d=\"M6.84 8.525a.92.92 0 0 1 .285.662.92.92 0 0 1-.286.663l-1.26 1.212h9.916l2.153-2.069a1 1 0 0 1 .69-.274c.258 0 .506.099.689.274l2.438 2.344a.92.92 0 0 1 .285.663.92.92 0 0 1-.285.663l-2.438 2.344a1 1 0 0 1-.69.274 1 1 0 0 1-.689-.274l-2.152-2.07H5.58l1.26 1.213a.913.913 0 0 1 .08 1.238l-.08.088a1 1 0 0 1-.69.274 1 1 0 0 1-.69-.274l-2.924-2.813a1 1 0 0 1-.095-.105l-.07-.103-.052-.107-.034-.099-.024-.11-.007-.055L2.25 12l.003-.07.016-.118.03-.104.043-.105.05-.091.066-.09.078-.085L5.46 8.525a1 1 0 0 1 .689-.275c.259 0 .507.099.69.274\"/>");
+export { ArrowLeftRhombusFilled, ArrowLeftRhombusFilled as ArrowLeftRhombusFilledIcon };
+export default ArrowLeftRhombusFilled;

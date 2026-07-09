@@ -1,0 +1,4 @@
+import { createIcon } from "../../createIcon.js";
+const AlignBoxLeftMiddleFilled = createIcon("AlignBoxLeftMiddleFilled", "<path d=\"M18.175 2.25a3.575 3.575 0 0 1 3.57 3.385l.005.19v12.35a3.575 3.575 0 0 1-3.385 3.57l-.19.005H5.825a3.576 3.576 0 0 1-3.57-3.385l-.005-.19V5.825a3.576 3.576 0 0 1 3.385-3.57l.19-.005zM8.1 13.95H6.15l-.114.007A.975.975 0 0 0 6.15 15.9H8.1l.114-.007A.975.975 0 0 0 8.1 13.95m3.9-2.925H6.15l-.114.007a.975.975 0 0 0 .114 1.943H12l.114-.007A.975.975 0 0 0 12 11.025M10.05 8.1h-3.9l-.114.007a.975.975 0 0 0 .114 1.943h3.9l.114-.007A.975.975 0 0 0 10.05 8.1\"/>");
+export { AlignBoxLeftMiddleFilled, AlignBoxLeftMiddleFilled as AlignBoxLeftMiddleFilledIcon };
+export default AlignBoxLeftMiddleFilled;

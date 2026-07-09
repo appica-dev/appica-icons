@@ -1,0 +1,4 @@
+import { createIcon } from "../../createIcon.js";
+const BrandTinderFilled = createIcon("BrandTinderFilled", "<path d=\"M11.6 2.353a.98.98 0 0 1 .407-.927.97.97 0 0 1 1.006-.065c3.02 1.586 5.254 3.706 6.574 6.468l-.012-.023.01.019.111.226c2.672 5.564.086 12.286-5.742 13.43l-.259.048C5.228 23.394-.342 13 5.955 6.97c.453-.45 1.244-1.168 1.59-1.416a.97.97 0 0 1 1.393.285 1 1 0 0 1 .143.509c0 .303.083 1.09.199 1.653q.045.21.09.374l.016.057.098-.02C11 8.025 11.932 5.463 11.63 2.6z\"/>");
+export { BrandTinderFilled, BrandTinderFilled as BrandTinderFilledIcon };
+export default BrandTinderFilled;

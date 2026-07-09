@@ -1,0 +1,4 @@
+import { createIcon } from "../../createIcon.js";
+const BirthdayCake = createIcon("BirthdayCake", "<path d=\"M12 6.3a1.42 1.42 0 0 0 1.412-1.425C13.412 4.088 12 2.5 12 2.5s-1.412 1.588-1.412 2.375A1.42 1.42 0 0 0 12 6.3zm0 0v2.85m0 0H6.667C5.194 9.15 4 10.213 4 11.525S5.194 13.9 6.667 13.9c1.29 0 2.42-.816 2.667-1.9.247 1.084 1.377 1.9 2.667 1.9s2.42-.816 2.667-1.9c.247 1.084 1.376 1.9 2.667 1.9 1.473 0 2.667-1.063 2.667-2.375S18.806 9.15 17.333 9.15H12zM5.412 13.9l.49 2.451c.494 2.467.74 3.701 1.577 4.425s2.014.724 4.37.724h.303c2.356 0 3.534 0 4.37-.724s1.083-1.958 1.577-4.425l.49-2.451\"/>", { fill: "none", stroke: "currentColor", strokeWidth: "1.5", strokeLinecap: "round", strokeLinejoin: "round" });
+export { BirthdayCake, BirthdayCake as BirthdayCakeIcon };
+export default BirthdayCake;

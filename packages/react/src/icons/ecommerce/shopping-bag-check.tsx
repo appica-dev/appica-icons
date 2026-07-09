@@ -1,0 +1,4 @@
+import { createIcon } from "../../createIcon.js";
+const ShoppingBagCheck = createIcon("ShoppingBagCheck", "<path d=\"M11.312 21H8.327c-.73 0-1.437-.257-1.992-.723a2.99 2.99 0 0 1-1.031-1.821l-1.28-8.152a1.96 1.96 0 0 1 .468-1.606c.191-.22.429-.395.696-.515S5.746 8 6.04 8h11.564c.294 0 .585.062.852.183.267.12.505.296.696.515a1.962 1.962 0 0 1 .468 1.606l-.51 3.248M8.762 11V6c0-.796.322-1.559.896-2.121A3.1 3.1 0 0 1 11.821 3c.812 0 1.59.316 2.164.879A2.97 2.97 0 0 1 14.88 6v5m0 8 2.04 2L21 17\"/>", { fill: "none", stroke: "currentColor", strokeWidth: "1.5", strokeLinecap: "round", strokeLinejoin: "round" });
+export { ShoppingBagCheck, ShoppingBagCheck as ShoppingBagCheckIcon };
+export default ShoppingBagCheck;

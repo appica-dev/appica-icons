@@ -1,0 +1,4 @@
+import { createIcon } from "../../createIcon.js";
+const HeadphonesFilled = createIcon("HeadphonesFilled", "<path d=\"M3.25 12v5.833a2.916 2.916 0 0 0 2.917 2.917h.972a2.916 2.916 0 0 0 2.917-2.917v-2.916A2.916 2.916 0 0 0 7.139 12h-.972c-.335 0-.663.057-.973.167V12a6.806 6.806 0 1 1 13.612 0v.167a2.9 2.9 0 0 0-.973-.167h-.972a2.916 2.916 0 0 0-2.917 2.917v2.916a2.917 2.917 0 0 0 2.917 2.917h.972a2.916 2.916 0 0 0 2.917-2.917V12a8.75 8.75 0 1 0-17.5 0\"/>");
+export { HeadphonesFilled, HeadphonesFilled as HeadphonesFilledIcon };
+export default HeadphonesFilled;

@@ -1,0 +1,4 @@
+import { createIcon } from "../../createIcon.js";
+const AlignBoxRightTopFilled = createIcon("AlignBoxRightTopFilled", "<path d=\"M18.175 2.25a3.575 3.575 0 0 1 3.57 3.385l.005.19v12.35a3.575 3.575 0 0 1-3.385 3.57l-.19.005H5.825a3.576 3.576 0 0 1-3.57-3.385l-.005-.19V5.825a3.576 3.576 0 0 1 3.385-3.57l.19-.005zm-.325 8.775H15.9l-.114.007a.975.975 0 0 0 .114 1.943h1.95l.114-.007a.975.975 0 0 0-.114-1.943m0-2.925H12l-.114.007A.975.975 0 0 0 12 10.05h5.85l.114-.007A.975.975 0 0 0 17.85 8.1m0-2.925h-3.9l-.114.007a.975.975 0 0 0 .114 1.943h3.9l.114-.007a.975.975 0 0 0-.114-1.943\"/>");
+export { AlignBoxRightTopFilled, AlignBoxRightTopFilled as AlignBoxRightTopFilledIcon };
+export default AlignBoxRightTopFilled;

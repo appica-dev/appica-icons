@@ -1,0 +1,4 @@
+import { createIcon } from "../../createIcon.js";
+const PackageClock = createIcon("PackageClock", "<path d=\"M11.1 11.1c-.873 0-1.684-.393-3.307-1.178L5.164 8.65C3.721 7.952 3 7.603 3 7.05m8.1 4.05c.873 0 1.684-.393 3.307-1.178l2.629-1.272c1.443-.698 2.164-1.047 2.164-1.6m-8.1 4.05V21m8.1-13.95c0-.553-.721-.902-2.164-1.6l-2.629-1.272C12.784 3.393 11.973 3 11.1 3s-1.684.393-3.307 1.178L5.164 5.45C3.721 6.148 3 6.497 3 7.05m16.2 0v4.5M3 7.05v9.595c0 1.244 1.751 1.984 5.253 3.463 1.407.594 2.11.892 2.847.892m0 0c.306 0 .582-.051.9-.154m5.401-3.445l.815-.815M5.699 12l1.8.9m8.1-8.1l-9 4.5m14.401 8.1a3.6 3.6 0 1 0-7.2 0 3.6 3.6 0 1 0 7.2 0z\"/>", { fill: "none", stroke: "currentColor", strokeWidth: "1.5", strokeLinecap: "round", strokeLinejoin: "round" });
+export { PackageClock, PackageClock as PackageClockIcon };
+export default PackageClock;

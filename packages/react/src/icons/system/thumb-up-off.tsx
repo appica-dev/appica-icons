@@ -1,0 +1,4 @@
+import { createIcon } from "../../createIcon.js";
+const ThumbUpOff = createIcon("ThumbUpOff", "<path d=\"M7 11v8a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1v-7a1 1 0 0 1 1-1zm0 0a3.99 3.99 0 0 0 2.828-1.172M11 7V6a2 2 0 1 1 4 0v5h3a2 2 0 0 1 2 2q-.334 1.668-.5 2.503m-.758 3.244C18.35 19.57 17.698 20.059 17 20h-7a3 3 0 0 1-3-3M3 3l18 18\"/>", { fill: "none", stroke: "currentColor", strokeWidth: "1.5", strokeLinecap: "round", strokeLinejoin: "round" });
+export { ThumbUpOff, ThumbUpOff as ThumbUpOffIcon };
+export default ThumbUpOff;
