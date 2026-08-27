@@ -1,0 +1,17 @@
+<script lang="ts">
+  import Icon from "../../Icon.svelte";
+
+  let props = $props();
+
+  const innerSvg = "<path d=\"m16 8-4-4m0 0L8 8m4-4v16m6-2q-6-2-6-10 0 8-6 10\"/>";
+</script>
+
+<Icon
+  innerSvg={innerSvg}
+  fill={"none"}
+  stroke={"currentColor"}
+  stroke-width={"1.5"}
+  stroke-linecap={"round"}
+  stroke-linejoin={"round"}
+  {...props}
+/>

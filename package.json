@@ -14,7 +14,9 @@
     "format": "prettier --write .",
     "format:check": "prettier --check .",
     "pack:react": "pnpm --filter @appica/icons-react build && pnpm --filter @appica/icons-react exec pnpm pack",
-    "release": "pnpm --filter @appica/icons-react publish"
+    "pack:svelte": "pnpm --filter @appica/icons-svelte build && pnpm --filter @appica/icons-svelte exec pnpm pack",
+    "release": "pnpm --filter @appica/icons-react publish",
+    "release:svelte": "pnpm --filter @appica/icons-svelte publish"
   },
   "devDependencies": {
     "prettier": "^3.9.4"
