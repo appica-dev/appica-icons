@@ -9,7 +9,7 @@
   "scripts": {
     "build": "pnpm -r build",
     "typecheck": "pnpm -r typecheck",
-    "test": "pnpm -r test",
+    "test": "vitest run && pnpm -r test",
     "clean": "pnpm -r clean",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
@@ -17,6 +17,7 @@
     "release": "pnpm --filter @appica/icons-react publish"
   },
   "devDependencies": {
-    "prettier": "^3.9.4"
+    "prettier": "^3.9.4",
+    "vitest": "^4.1.10"
   }
 }

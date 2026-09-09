@@ -1,7 +1,7 @@
 export interface IconNames {
   /** kebab-case name derived from the source filename (without extension) */
   name: string
-  /** PascalCase React component name */
+  /** PascalCase component name */
   componentName: string
   /** Aliased component name with `Icon` suffix */
   aliasName: string

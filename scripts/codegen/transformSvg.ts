@@ -1,5 +1,5 @@
 export interface TransformedSvg {
-  /** Inner SVG markup, ready to be injected via dangerouslySetInnerHTML */
+  /** Inner SVG markup, ready to be injected into a host framework's renderer */
   innerSvg: string
   /** viewBox extracted from the source <svg> element */
   viewBox: string
