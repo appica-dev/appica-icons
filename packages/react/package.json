@@ -51,7 +51,9 @@
     "codegen": "tsx scripts/build.ts",
     "build": "pnpm run codegen && tsup",
     "build:lib": "tsup",
+    "pretypecheck": "pnpm run codegen",
     "typecheck": "tsc --noEmit",
+    "pretest": "pnpm run codegen",
     "test": "vitest run",
     "test:watch": "vitest",
     "prepublishOnly": "pnpm run clean && pnpm run build && pnpm run test"
