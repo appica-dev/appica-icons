@@ -1,4 +1,0 @@
-import { createIcon } from "../../createIcon.js";
-const ZoomMoneyFilled = createIcon("ZoomMoneyFilled", "<path d=\"M13.957 3.296a7.805 7.805 0 0 1 2.264 11.545l5.255 5.256a.976.976 0 0 1-1.38 1.38L14.84 16.22a7.805 7.805 0 0 1-12.59-6.166l.005-.278a7.805 7.805 0 0 1 11.702-6.481m-1.951 2.856H9.567a2.439 2.439 0 1 0 0 4.878h.976a.488.488 0 1 1 0 .976h-2.44a.975.975 0 0 0 0 1.951h2.44a2.439 2.439 0 1 0 0-4.878h-.976a.488.488 0 0 1 0-.976h2.439a.975.975 0 1 0 0-1.95\"/>");
-export { ZoomMoneyFilled, ZoomMoneyFilled as ZoomMoneyFilledIcon };
-export default ZoomMoneyFilled;

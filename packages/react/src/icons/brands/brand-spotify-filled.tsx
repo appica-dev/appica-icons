@@ -1,4 +1,0 @@
-import { createIcon } from "../../createIcon.js";
-const BrandSpotifyFilled = createIcon("BrandSpotifyFilled", "<path d=\"M16.875 3.556A9.75 9.75 0 1 1 2.25 12l.005-.316a9.75 9.75 0 0 1 14.62-8.128m-2.114 11.315c-1.253-1.879-4.245-2.078-6.227-.757a.975.975 0 1 0 1.082 1.622c1.165-.777 2.939-.658 3.523.217a.977.977 0 0 0 1.352.27.976.976 0 0 0 .27-1.352m1.237-3.164c-2.408-1.805-5.748-2.132-8.393-.574a.975.975 0 1 0 .99 1.68c1.937-1.14 4.43-.896 6.233.454a.975.975 0 1 0 1.17-1.56m1.394-2.971C13.807 6.495 9.82 6.637 6.689 8.203a.975.975 0 0 0 .872 1.743c2.569-1.284 5.847-1.4 8.797.443a.975.975 0 0 0 1.034-1.653\"/>");
-export { BrandSpotifyFilled, BrandSpotifyFilled as BrandSpotifyFilledIcon };
-export default BrandSpotifyFilled;

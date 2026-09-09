@@ -1,4 +1,0 @@
-import { createIcon } from "../../createIcon.js";
-const CaretLeftFilled = createIcon("CaretLeftFilled", "<path d=\"m13.703 5.255.054-.005h.11l.055.005.056.008.05.01.1.031.063.026.124.068.084.062.076.07.078.091.05.075.051.092.016.035.026.064.03.105.009.05.01.059.003.054.002.057v11.572c0 .822-.924 1.25-1.522.755l-.078-.073-5.625-5.786a.983.983 0 0 1-.078-1.273l.078-.09L13.15 5.53l.088-.08.072-.052.09-.053.034-.016.063-.026.1-.03.05-.01.057-.01z\"/>");
-export { CaretLeftFilled, CaretLeftFilled as CaretLeftFilledIcon };
-export default CaretLeftFilled;

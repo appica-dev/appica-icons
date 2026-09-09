@@ -1,4 +1,0 @@
-import { createIcon } from "../../createIcon.js";
-const Dashboard = createIcon("Dashboard", "<path d=\"M13.45 11.574 15.5 9.53M10 13.02c0 .529.21 1.036.586 1.41a2.003 2.003 0 0 0 2.828 0A1.991 1.991 0 0 0 12 11.026c-.53 0-1.04.21-1.414.584A2 2 0 0 0 10 13.02M6.4 20a8.97 8.97 0 0 1-3.045-4.53 8.95 8.95 0 0 1 .148-5.453 8.98 8.98 0 0 1 3.286-4.36 9.02 9.02 0 0 1 10.422 0 8.98 8.98 0 0 1 3.286 4.36 8.95 8.95 0 0 1 .148 5.452A8.97 8.97 0 0 1 17.6 20z\"/>", { fill: "none", stroke: "currentColor", strokeWidth: "1.5", strokeLinecap: "round", strokeLinejoin: "round" });
-export { Dashboard, Dashboard as DashboardIcon };
-export default Dashboard;

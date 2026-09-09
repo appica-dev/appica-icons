@@ -1,4 +1,0 @@
-import { createIcon } from "../../createIcon.js";
-const BrandElastic = createIcon("BrandElastic", "<path d=\"M18.497 9c.268-.613.5-1.288.5-2a5 5 0 0 0-1.466-3.536A5 5 0 0 0 13.992 2l.002.008c-2.026 0-3.718 1.27-4.504 3-.459-.568-1.215-1-2.002-1a2.504 2.504 0 0 0-2.493 2.725c.042.462.212.904.49 1.275H5.29A3.505 3.505 0 0 0 2 11.557 3.5 3.5 0 0 0 5.4 15m13.097-6C20.392 9.042 22 10.595 22 12.5c0 1.869-1.658 3.4-3.503 3.5m0-7-4.004 4-5.005-2m9.009 5q.5.938.5 1.5a2.5 2.5 0 0 1-2.503 2.5c-.787 0-1.543-.432-2.001-1m4.004-3-3.004-.5-1.001-2.5m0 6c-.786 1.73-2.478 3-4.504 3A5.01 5.01 0 0 1 5.8 19.739 5 5 0 0 1 5.4 15m9.093 4 1-3.5M5.4 15l4.088-4M8.487 9 5.484 8m3.003 1 1-4m-1 4 1 2\"/>", { fill: "none", stroke: "currentColor", strokeWidth: "1.5", strokeLinecap: "round", strokeLinejoin: "round" });
-export { BrandElastic, BrandElastic as BrandElasticIcon };
-export default BrandElastic;

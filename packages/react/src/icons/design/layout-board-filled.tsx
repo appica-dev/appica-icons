@@ -1,4 +1,0 @@
-import { createIcon } from "../../createIcon.js";
-const LayoutBoardFilled = createIcon("LayoutBoardFilled", "<path d=\"M5.194 3.25h4.862a.97.97 0 0 1 .972.972V7.14a.97.97 0 0 1-.972.972H4.222a.97.97 0 0 1-.972-.972V5.194A1.944 1.944 0 0 1 5.194 3.25M13.944 3.25h4.862a1.944 1.944 0 0 1 1.944 1.944v7.778a.97.97 0 0 1-.972.972h-5.834a.97.97 0 0 1-.972-.972v-8.75a.97.97 0 0 1 .972-.972M13.944 15.889h5.834a.97.97 0 0 1 .972.972v1.945a1.945 1.945 0 0 1-1.944 1.944h-4.862a.97.97 0 0 1-.972-.972V16.86a.973.973 0 0 1 .972-.972M4.222 10.056h5.834a.97.97 0 0 1 .972.972v8.75a.97.97 0 0 1-.972.972H5.194a1.945 1.945 0 0 1-1.944-1.944v-7.778a.97.97 0 0 1 .972-.972\"/>");
-export { LayoutBoardFilled, LayoutBoardFilled as LayoutBoardFilledIcon };
-export default LayoutBoardFilled;

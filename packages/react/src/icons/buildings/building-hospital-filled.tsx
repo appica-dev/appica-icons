@@ -1,4 +1,0 @@
-import { createIcon } from "../../createIcon.js";
-const BuildingHospitalFilled = createIcon("BuildingHospitalFilled", "<path d=\"M13.95 16.875a.975.975 0 0 0-.975-.975h-1.95a.975.975 0 0 0-.975.975v4.875h3.9z\"/><path fill-rule=\"evenodd\" d=\"M19.8 5.175V19.8h.975a.975.975 0 1 1 0 1.95H15.9v-4.875a2.925 2.925 0 0 0-2.925-2.925h-1.95A2.925 2.925 0 0 0 8.1 16.875v4.875H3.225a.975.975 0 1 1 0-1.95H4.2V5.175A2.925 2.925 0 0 1 7.125 2.25h9.75A2.925 2.925 0 0 1 19.8 5.175m-8.775 5.85v-.975h-.975a.975.975 0 1 1 0-1.95h.975v-.975a.975.975 0 1 1 1.95 0V8.1h.975a.975.975 0 1 1 0 1.95h-.975v.975a.975.975 0 1 1-1.95 0\"/>");
-export { BuildingHospitalFilled, BuildingHospitalFilled as BuildingHospitalFilledIcon };
-export default BuildingHospitalFilled;

@@ -1,4 +1,0 @@
-import { createIcon } from "../../createIcon.js";
-const PumpkinScary = createIcon("PumpkinScary", "<path d=\"m9.018 15 1.49 1L12 15l1.492 1 1.49-1m-4.97-4h.01m3.967 0h.01M12 6c-.87 0-1.689.315-2.4.869-1.005-.721-1.492-1.031-2.57-.787-2.595.588-3.607 4.163-2.71 7.983.9 3.82 2.736 6.44 5.33 5.853q.402-.092.77-.28A3.7 3.7 0 0 0 12 20a3.7 3.7 0 0 0 1.581-.361q.368.187.77.279c2.593.587 4.43-2.033 5.327-5.853.9-3.821-.113-7.395-2.707-7.983-1.078-.244-1.566.066-2.57.788-.712-.555-1.53-.87-2.4-.87m0 0c0-1.226.69-2.346 1.779-2.894l.21-.106\"/>", { fill: "none", stroke: "currentColor", strokeWidth: "1.5", strokeLinecap: "round", strokeLinejoin: "round" });
-export { PumpkinScary, PumpkinScary as PumpkinScaryIcon };
-export default PumpkinScary;

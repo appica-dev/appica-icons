@@ -1,4 +1,0 @@
-import { createIcon } from "../../createIcon.js";
-const WorldExclamation = createIcon("WorldExclamation", "<path d=\"M20.986 12.505a8.99 8.99 0 0 0-5.967-8.984A9 9 0 0 0 4.714 6.714a8.992 8.992 0 0 0 4.884 13.95 9 9 0 0 0 5.677-.29M3.6 8.997h16.8M3.6 14.994h10.9M11.5 3a16.99 16.99 0 0 0 0 17.99M12.5 3a16.98 16.98 0 0 1 0 17.99m6.5-4.997v2.999m0 2.998V22\"/>", { fill: "none", stroke: "currentColor", strokeWidth: "1.5", strokeLinecap: "round", strokeLinejoin: "round" });
-export { WorldExclamation, WorldExclamation as WorldExclamationIcon };
-export default WorldExclamation;

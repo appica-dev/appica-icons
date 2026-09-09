@@ -1,4 +1,0 @@
-import { createIcon } from "../../createIcon.js";
-const PlayerSkipBackFilled = createIcon("PlayerSkipBackFilled", "<path d=\"M19.288 4.382 7.62 11.163a.97.97 0 0 0-.483.837.97.97 0 0 0 .483.837l11.667 6.781a.975.975 0 0 0 1.331-.352.97.97 0 0 0 .131-.485V5.219a.97.97 0 0 0-.488-.84.98.98 0 0 0-.974.003M4.222 4.25a.974.974 0 0 1 .966.856l.006.113v13.562a.967.967 0 0 1-.915.966.975.975 0 0 1-1.022-.853l-.007-.113V5.219a.967.967 0 0 1 .972-.969\"/>");
-export { PlayerSkipBackFilled, PlayerSkipBackFilled as PlayerSkipBackFilledIcon };
-export default PlayerSkipBackFilled;

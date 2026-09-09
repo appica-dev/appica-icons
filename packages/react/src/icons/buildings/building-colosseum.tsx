@@ -1,4 +1,0 @@
-import { createIcon } from "../../createIcon.js";
-const BuildingColosseum = createIcon("BuildingColosseum", "<path d=\"m11.815 20.856.128-1.84m-4.105 1.898.127-1.897m-1.988-3.504v-2.002m3.977-4.765-1.9-4.589c-.239-.638-1.251-1.823-2.891-.706l-2.216 1.51a1.96 1.96 0 0 0-.858 1.515c-.2 3.84-.229 10.365-.04 12.52.004.725.299 2.051 2.559 1.986 0 0 14.227-.056 14.87 0s2.37-.125 2.37-1.986c.085-1.446.1-3.583.027-4.983-.03-.565-.256-1.101-.688-1.464-.814-.684-2.255-1.633-4.28-2.534l-.061 2.032-3.508-.087m-11.412.884c1.48-1.816 6.36-4.274 9.413-4.213.352.007.648.244.784.57l2.477 5.98m0 0 2.29 5.777m-2.29-5.777c-5.826-.59-10.58.83-12.643 1.873M14.6 15.18c2.262.23 4.422.599 7.316 1.802m-11.962-1.97V13.01\"/>", { fill: "none", stroke: "currentColor", strokeWidth: "1.5", strokeLinecap: "round", strokeLinejoin: "round" });
-export { BuildingColosseum, BuildingColosseum as BuildingColosseumIcon };
-export default BuildingColosseum;

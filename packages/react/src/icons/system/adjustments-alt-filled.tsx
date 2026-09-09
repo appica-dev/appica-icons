@@ -1,4 +1,0 @@
-import { createIcon } from "../../createIcon.js";
-const AdjustmentsAltFilled = createIcon("AdjustmentsAltFilled", "<path d=\"M5.194 19.778v-6.806h-.972A.97.97 0 0 1 3.25 12V8.111c0-.537.435-.972.972-.972h.972V4.222a.972.972 0 0 1 1.945 0V7.14h.972c.537 0 .972.435.972.972V12a.97.97 0 0 1-.972.972H7.14v6.806a.972.972 0 0 1-1.945 0M11.028 18.806v.972a.972.972 0 0 0 1.944 0v-.972h.972a.97.97 0 0 0 .973-.973v-3.889a.97.97 0 0 0-.973-.972h-.972v-8.75a.972.972 0 0 0-1.944 0v8.75h-.972a.97.97 0 0 0-.973.972v3.89c0 .536.436.972.973.972zM16.861 10.056h-.972a.97.97 0 0 1-.972-.973V5.194c0-.537.435-.972.972-.972h.972a.972.972 0 0 1 1.945 0h.972c.537 0 .972.435.972.972v3.89a.97.97 0 0 1-.972.972h-.972v9.722a.972.972 0 0 1-1.945 0z\"/>");
-export { AdjustmentsAltFilled, AdjustmentsAltFilled as AdjustmentsAltFilledIcon };
-export default AdjustmentsAltFilled;

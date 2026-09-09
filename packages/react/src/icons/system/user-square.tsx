@@ -1,4 +1,0 @@
-import { createIcon } from "../../createIcon.js";
-const UserSquare = createIcon("UserSquare", "<path d=\"M6 21v-1a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v1M9 10a3 3 0 1 0 6 0 3 3 0 0 0-6 0M3 5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z\"/>", { fill: "none", stroke: "currentColor", strokeWidth: "1.5", strokeLinecap: "round", strokeLinejoin: "round" });
-export { UserSquare, UserSquare as UserSquareIcon };
-export default UserSquare;

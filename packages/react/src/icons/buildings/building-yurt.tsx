@@ -1,4 +1,0 @@
-import { createIcon } from "../../createIcon.js";
-const BuildingYurt = createIcon("BuildingYurt", "<path d=\"M19.503 8c.694.693 1.038 1.452 1.118 2.409L21 15l-.379 4.591c-.08.957-.424 1.716-1.118 2.409M21 15h-6m4.503 7H15m4.503 0H21m-6 0v-7m0 7H9m6-7v-1c0-1.655-.345-2-2-2h-2c-1.655 0-2 .345-2 2v1M4.497 8h15.006.054c.868 0 1.302 0 1.419-.333s-.195-.624-.819-1.206c-1.423-1.327-3.603-2.94-6.314-4.006C13.07 2.152 12.683 2 12 2s-1.07.152-1.843.456C7.446 3.522 5.266 5.135 3.843 6.462c-.624.582-.936.873-.819 1.206S3.575 8 4.443 8h.054zm0 14c-.693-.693-1.038-1.452-1.118-2.409L3 15l.379-4.591c.08-.957.424-1.716 1.118-2.409M3 15h6m0 0v7m0 0H4.497m0 0H3m9-7v.5\"/>", { fill: "none", stroke: "currentColor", strokeWidth: "1.5", strokeLinecap: "round", strokeLinejoin: "round" });
-export { BuildingYurt, BuildingYurt as BuildingYurtIcon };
-export default BuildingYurt;

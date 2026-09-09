@@ -1,4 +1,0 @@
-import { createIcon } from "../../createIcon.js";
-const Cylinder = createIcon("Cylinder", "<path d=\"M5 6c0 .394.181.784.533 1.148s.867.695 1.517.973c.65.279 1.422.5 2.271.65.85.151 1.76.229 2.679.229.92 0 1.83-.078 2.679-.228.85-.151 1.62-.372 2.27-.65.65-.28 1.166-.61 1.518-.974S19 6.394 19 6M5 6c0-.394.181-.784.533-1.148s.867-.695 1.517-.973c.65-.279 1.422-.5 2.271-.65C10.171 3.077 11.081 3 12 3c.92 0 1.83.078 2.679.228.85.151 1.62.372 2.27.65.65.28 1.166.61 1.518.974S19 5.606 19 6M5 6v12c0 1.657 3.134 3 7 3s7-1.343 7-3V6\"/>", { fill: "none", stroke: "currentColor", strokeWidth: "1.5", strokeLinecap: "round", strokeLinejoin: "round" });
-export { Cylinder, Cylinder as CylinderIcon };
-export default Cylinder;

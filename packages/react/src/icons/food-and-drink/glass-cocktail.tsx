@@ -1,4 +1,0 @@
-import { createIcon } from "../../createIcon.js";
-const GlassCocktail = createIcon("GlassCocktail", "<path d=\"M8 21h8m-4-6v6M5 5c0 .263.181.523.533.765.352.243.867.464 1.517.65.65.185 1.422.332 2.271.433.85.1 1.76.152 2.679.152.92 0 1.83-.052 2.679-.152.85-.1 1.62-.248 2.27-.434.65-.185 1.166-.406 1.518-.649C18.82 5.523 19 5.263 19 5M5 5c0-.263.181-.523.533-.765.352-.243.867-.464 1.517-.65a15 15 0 0 1 2.271-.433C10.171 3.052 11.081 3 12 3c.92 0 1.83.052 2.679.152.85.1 1.62.248 2.27.434s1.166.406 1.518.649c.352.242.533.502.533.765M5 5v.388c0 .432.126.853.362 1.206l5 7.509c.633.951 1.88 1.183 2.785.517.191-.141.358-.316.491-.517l5-7.509c.236-.353.362-.774.362-1.206V5\"/>", { fill: "none", stroke: "currentColor", strokeWidth: "1.5", strokeLinecap: "round", strokeLinejoin: "round" });
-export { GlassCocktail, GlassCocktail as GlassCocktailIcon };
-export default GlassCocktail;

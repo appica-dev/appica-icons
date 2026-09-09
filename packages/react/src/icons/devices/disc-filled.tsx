@@ -1,4 +1,0 @@
-import { createIcon } from "../../createIcon.js";
-const DiscFilled = createIcon("DiscFilled", "<path d=\"M16.875 3.556A9.75 9.75 0 1 1 2.25 12l.005-.316a9.75 9.75 0 0 1 14.62-8.128m0 7.469A.975.975 0 0 0 15.9 12a3.9 3.9 0 0 1-3.9 3.9.975.975 0 1 0 0 1.95A5.85 5.85 0 0 0 17.85 12a.975.975 0 0 0-.975-.975M12 10.05a1.95 1.95 0 0 0-1.945 1.804L10.05 12A1.95 1.95 0 1 0 12 10.05m0-3.9A5.85 5.85 0 0 0 6.15 12a.975.975 0 1 0 1.95 0A3.9 3.9 0 0 1 12 8.1a.975.975 0 1 0 0-1.95\"/>");
-export { DiscFilled, DiscFilled as DiscFilledIcon };
-export default DiscFilled;

@@ -1,4 +1,0 @@
-import { createIcon } from "../../createIcon.js";
-const CirclePercentageFilled = createIcon("CirclePercentageFilled", "<path d=\"M12 2.25c5.385 0 9.75 4.365 9.75 9.75a9.75 9.75 0 1 1-19.5 0l.004-.273C2.398 6.469 6.706 2.25 12 2.25m2.925 11.817a.975.975 0 0 0-.975.975v.015a.975.975 0 1 0 1.95 0v-.015a.975.975 0 0 0-.975-.975m.69-5.608a.975.975 0 0 0-1.38 0l-5.85 5.85a.975.975 0 0 0 1.38 1.378l5.85-5.85a.975.975 0 0 0 0-1.378m-6.54-.257a.975.975 0 0 0-.975.975v.015a.975.975 0 1 0 1.95 0v-.015a.975.975 0 0 0-.975-.975\"/>");
-export { CirclePercentageFilled, CirclePercentageFilled as CirclePercentageFilledIcon };
-export default CirclePercentageFilled;

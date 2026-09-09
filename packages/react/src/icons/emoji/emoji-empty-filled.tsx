@@ -1,4 +1,0 @@
-import { createIcon } from "../../createIcon.js";
-const EmojiEmptyFilled = createIcon("EmojiEmptyFilled", "<path d=\"M16.875 3.556a9.75 9.75 0 1 1-14.62 8.76L2.25 12l.005-.316a9.75 9.75 0 0 1 14.62-8.128m-1.95 10.394h-5.85l-.114.007a.975.975 0 0 0 0 1.936l.114.007h5.85l.114-.007a.975.975 0 0 0 0-1.936zm-5.84-4.875-.124.007a.975.975 0 0 0 0 1.936l.114.007.124-.007a.975.975 0 0 0 0-1.936zm5.85 0-.124.007a.975.975 0 0 0 0 1.936l.114.007.124-.007a.974.974 0 0 0 0-1.936z\"/>");
-export { EmojiEmptyFilled, EmojiEmptyFilled as EmojiEmptyFilledIcon };
-export default EmojiEmptyFilled;

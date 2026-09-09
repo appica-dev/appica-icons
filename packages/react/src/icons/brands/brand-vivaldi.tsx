@@ -1,4 +1,0 @@
-import { createIcon } from "../../createIcon.js";
-const BrandVivaldi = createIcon("BrandVivaldi", "<path d=\"M21.648 6.806q-3.702 6.418-7.408 12.83c-.397.776-1.366 1.3-2.24 1.355-.962.102-1.7-.402-2.154-1.254-1.563-2.682-3.106-5.37-4.66-8.06-.943-1.632-1.891-3.264-2.83-4.902a2.47 2.47 0 0 1-.06-2.449A2.49 2.49 0 0 1 4.381 3.02 2.39 2.39 0 0 1 6.668 4.3c.697 1.19 2.043 3.828 2.55 4.68a3.92 3.92 0 0 0 3.282 2.016c2.126.133 3.974-.95 4.21-3.057 0-.163.228-3.176.846-3.96.619-.783 1.64-1.154 2.606-.892a2.48 2.48 0 0 1 1.814 2.06c.08.582-.041 1.171-.343 1.674\"/>", { fill: "none", stroke: "currentColor", strokeWidth: "1.5", strokeLinecap: "round", strokeLinejoin: "round" });
-export { BrandVivaldi, BrandVivaldi as BrandVivaldiIcon };
-export default BrandVivaldi;

@@ -1,4 +1,0 @@
-import { createIcon } from "../../createIcon.js";
-const BowlSpoonFilled = createIcon("BowlSpoonFilled", "<path d=\"M19.8 10.05A1.95 1.95 0 0 1 21.75 12v.488c0 1.651-2.19 5.352-3.883 6.808l-.017.013v.491a1.95 1.95 0 0 1-1.804 1.945l-.146.005H8.1a1.95 1.95 0 0 1-1.95-1.95v-.484l-.063-.051c-1.716-1.459-3.7-4.841-3.83-6.601l-.007-.176V12a1.95 1.95 0 0 1 1.95-1.95zM8.1 2.25c1.667 0 3.156.767 3.69 1.95h8.01a.975.975 0 1 1 0 1.95l-8.01.001C11.254 7.334 9.766 8.1 8.1 8.1c-2.09 0-3.9-1.206-3.9-2.925S6.01 2.25 8.1 2.25\"/>");
-export { BowlSpoonFilled, BowlSpoonFilled as BowlSpoonFilledIcon };
-export default BowlSpoonFilled;

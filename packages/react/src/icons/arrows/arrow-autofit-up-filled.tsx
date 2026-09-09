@@ -1,4 +1,0 @@
-import { createIcon } from "../../createIcon.js";
-const ArrowAutofitUpFilled = createIcon("ArrowAutofitUpFilled", "<path d=\"M13.96 20.75a.974.974 0 0 0 .974-.974V9.065h-.09a2.921 2.921 0 0 1-1.976-4.985.501.501 0 0 0-.353-.856H6.17a2.92 2.92 0 0 0-2.921 2.92V17.83a2.92 2.92 0 0 0 2.921 2.921z\"/><path d=\"M17.855 20.75a.974.974 0 0 0 .974-.974v-14.2l1.26 1.257a.974.974 0 0 0 1.284.08l.092-.08a.973.973 0 0 0 0-1.377l-2.921-2.92a1 1 0 0 0-.11-.095l-.106-.07-.111-.052-.103-.034-.145-.03-.114-.005-.073.003-.122.016-.108.03-.108.043-.096.05-.093.065-.088.078-2.921 2.921a.975.975 0 1 0 1.377 1.377l1.259-1.259v14.202a.974.974 0 0 0 .973.974\"/>");
-export { ArrowAutofitUpFilled, ArrowAutofitUpFilled as ArrowAutofitUpFilledIcon };
-export default ArrowAutofitUpFilled;

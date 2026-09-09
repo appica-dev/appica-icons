@@ -1,4 +1,0 @@
-import { createIcon } from "../../createIcon.js";
-const BuildingCottageFilled = createIcon("BuildingCottageFilled", "<path fill-rule=\"evenodd\" d=\"M20.775 19.8v-9.75a1 1 0 0 0-.123-.473l-2.437-4.388a1 1 0 0 0-.313-.339l-.136-.075-5.362-2.438a.98.98 0 0 0-.808 0L6.234 4.775a1 1 0 0 0-.363.285l-.086.13-2.437 4.387a1 1 0 0 0-.123.473v9.75a.975.975 0 1 0 0 1.95H8.1V15.9a1.95 1.95 0 0 1 1.95-1.95h3.9a1.95 1.95 0 0 1 1.95 1.95v5.85h4.875a.975.975 0 1 0 0-1.95m-6.707-8.657a2.925 2.925 0 1 0-4.136-4.137 2.925 2.925 0 0 0 4.136 4.137\"/><path d=\"M12.69 8.386a.975.975 0 1 1-1.38 1.378.975.975 0 0 1 1.38-1.378\"/><path d=\"M12.975 9.075a.975.975 0 1 0-1.95 0 .975.975 0 0 0 1.95 0M13.95 15.9h-3.9v5.85h3.9z\"/>");
-export { BuildingCottageFilled, BuildingCottageFilled as BuildingCottageFilledIcon };
-export default BuildingCottageFilled;
