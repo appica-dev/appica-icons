@@ -27,14 +27,8 @@ export interface CodegenTarget {
   extension: string
   /** Renders the full content of one icon component file from its record. */
   renderIconFile(record: IconRecord): string
-  /** Renders a category barrel file ("index.ts") listing the category's icon files. */
-  renderCategoryBarrel(records: IconRecord[]): string
-  /** Renders the root icons barrel; defaults to `export * from "./<category>/index.js"` per category. */
-  renderRootBarrel?(categories: string[]): string
-}
-
-function defaultRootBarrel(categories: string[]): string {
-  return categories.map((c) => `export * from "./${c}/index.js";`).join('\n') + '\n'
+  /** Renders the root icons barrel written to <packageDir>/src/icons/index.ts; omit to generate no root barrel. */
+  renderRootBarrel?(records: IconRecord[]): string
 }
 
 async function listCategories(assetsDir: string): Promise<string[]> {
@@ -101,8 +95,6 @@ async function emitCategory(
       ),
     ),
   )
-
-  await writeFile(join(outDir, 'index.ts'), target.renderCategoryBarrel(records), 'utf-8')
 }
 
 async function checkExists(p: string): Promise<boolean> {
@@ -155,8 +147,9 @@ export async function generateIcons(target: CodegenTarget): Promise<void> {
     )
   }
 
-  const renderRootBarrel = target.renderRootBarrel ?? defaultRootBarrel
-  await writeFile(join(outRoot, 'index.ts'), renderRootBarrel(categories), 'utf-8')
+  if (target.renderRootBarrel) {
+    await writeFile(join(outRoot, 'index.ts'), target.renderRootBarrel(allRecords), 'utf-8')
+  }
 
   const elapsed = ((Date.now() - startedAt) / 1000).toFixed(2)
   console.log(

@@ -44,10 +44,13 @@ function renderIconFile(record: IconRecord): string {
   )
 }
 
-function renderCategoryBarrel(records: IconRecord[]): string {
+function renderRootBarrel(records: IconRecord[]): string {
   return (
     records
-      .map((r) => `export { ${r.componentName}, ${r.aliasName} } from "./${r.name}.js";`)
+      .map(
+        (record) =>
+          `export { ${record.componentName}, ${record.aliasName} } from "./${record.category}/${record.name}.js";`,
+      )
       .join('\n') + '\n'
   )
 }
@@ -56,7 +59,7 @@ generateIcons({
   packageDir: PACKAGE_DIR,
   extension: '.tsx',
   renderIconFile,
-  renderCategoryBarrel,
+  renderRootBarrel,
 }).catch((err) => {
   console.error(err instanceof Error ? err.message : err)
   process.exit(1)
