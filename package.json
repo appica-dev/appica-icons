@@ -7,13 +7,15 @@
     "pnpm": ">=9.0.0"
   },
   "scripts": {
+    "codegen": "pnpm -r codegen",
     "build": "pnpm -r build",
     "typecheck": "pnpm -r typecheck",
     "test": "vitest run && pnpm -r test",
-    "clean": "pnpm -r clean",
+    "clean:generated": "pnpm -r clean:generated",
+    "clean:dist": "pnpm -r clean:dist",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
-    "pack:react": "pnpm --filter @appica/icons-react build && pnpm --filter @appica/icons-react exec pnpm pack",
+    "pack:react": "pnpm --filter @appica/icons-react run release:check && pnpm --filter @appica/icons-react exec pnpm pack --config.ignore-scripts=true",
     "release": "pnpm --filter @appica/icons-react publish"
   },
   "devDependencies": {
