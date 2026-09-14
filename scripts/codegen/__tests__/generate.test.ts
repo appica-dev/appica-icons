@@ -8,7 +8,10 @@ import type { CodegenTarget, IconRecord } from '../index'
 /** Minimal valid icon body: single path, currentColor only, no root presentation attrs. */
 const ICON_BODY = '<path d="M1 1h22v22H1z" fill="currentColor"/>'
 
-function svg(body: string, attrs = 'xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"'): string {
+function svg(
+  body: string,
+  attrs = 'xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"',
+): string {
   return `<svg ${attrs}>${body}</svg>`
 }
 
@@ -39,20 +42,18 @@ function baseTarget(fixture: Fixture): CodegenTarget {
     assetsDir: fixture.assetsDir,
     extension: '.tsx',
     renderIconFile: (record) => `${record.componentName}\n`,
-    renderCategoryBarrel: (records) =>
-      records.map((r) => `export { ${r.componentName} } from "./${r.name}.tsx";`).join('\n') + '\n',
+    renderRootBarrel: (records) => records.map((record) => `${record.componentName}\n`).join(''),
   }
 }
 
 describe('generateIcons', () => {
-  it('writes one icon file per SVG, category barrels, and the default root barrel; wipes stale output', async () => {
+  it('writes one icon file per SVG, emits only a root barrel, and wipes stale output', async () => {
     const fixture = await makeFixture({
       alpha: { 'sun.svg': svg(ICON_BODY) },
       beta: { 'moon.svg': svg(ICON_BODY) },
     })
     const outRoot = join(fixture.packageDir, 'src', 'icons')
     try {
-      // Stale marker must be removed by regeneration (old behavior: rm + mkdir of OUT_ROOT).
       await mkdir(outRoot, { recursive: true })
       await writeFile(join(outRoot, 'stale.tsx'), 'stale', 'utf-8')
 
@@ -60,22 +61,32 @@ describe('generateIcons', () => {
 
       await expect(readFile(join(outRoot, 'alpha', 'sun.tsx'), 'utf-8')).resolves.toBe('Sun\n')
       await expect(readFile(join(outRoot, 'beta', 'moon.tsx'), 'utf-8')).resolves.toBe('Moon\n')
-      await expect(readFile(join(outRoot, 'alpha', 'index.ts'), 'utf-8')).resolves.toBe(
-        'export { Sun } from "./sun.tsx";\n',
-      )
-      await expect(readFile(join(outRoot, 'beta', 'index.ts'), 'utf-8')).resolves.toBe(
-        'export { Moon } from "./moon.tsx";\n',
-      )
-      await expect(readFile(join(outRoot, 'index.ts'), 'utf-8')).resolves.toBe(
-        'export * from "./alpha/index.js";\nexport * from "./beta/index.js";\n',
-      )
+      await expect(readFile(join(outRoot, 'alpha', 'index.ts'), 'utf-8')).rejects.toThrow()
+      await expect(readFile(join(outRoot, 'beta', 'index.ts'), 'utf-8')).rejects.toThrow()
+      await expect(readFile(join(outRoot, 'index.ts'), 'utf-8')).resolves.toBe('Sun\nMoon\n')
       await expect(readFile(join(outRoot, 'stale.tsx'), 'utf-8')).rejects.toThrow()
     } finally {
       await rm(fixture.root, { recursive: true, force: true })
     }
   })
 
-  it('passes full parsed records (names, viewBox, root attrs, innerSvg) to the render hooks', async () => {
+  it('writes no root barrel when the target provides no renderer', async () => {
+    const fixture = await makeFixture({
+      alpha: { 'sun.svg': svg(ICON_BODY) },
+    })
+    try {
+      const target = baseTarget(fixture)
+      delete target.renderRootBarrel
+      await generateIcons(target)
+      await expect(
+        readFile(join(fixture.packageDir, 'src', 'icons', 'index.ts'), 'utf-8'),
+      ).rejects.toThrow()
+    } finally {
+      await rm(fixture.root, { recursive: true, force: true })
+    }
+  })
+
+  it('passes full parsed records to the icon renderer', async () => {
     const fixture = await makeFixture({
       alpha: {
         'line-star.svg': svg(
@@ -112,27 +123,12 @@ describe('generateIcons', () => {
     }
   })
 
-  it('uses a custom renderRootBarrel when one is provided', async () => {
-    const fixture = await makeFixture({
-      alpha: { 'sun.svg': svg(ICON_BODY) },
-      beta: { 'moon.svg': svg(ICON_BODY) },
-    })
-    try {
-      const target = baseTarget(fixture)
-      target.renderRootBarrel = (categories) =>
-        categories.map((c) => `// category ${c}`).join('\n') + '\n'
-      await generateIcons(target)
-      await expect(
-        readFile(join(fixture.packageDir, 'src', 'icons', 'index.ts'), 'utf-8'),
-      ).resolves.toBe('// category alpha\n// category beta\n')
-    } finally {
-      await rm(fixture.root, { recursive: true, force: true })
-    }
-  })
-
   it('rejects a category containing an invalid SVG, naming the category and file', async () => {
     const fixture = await makeFixture({
-      alpha: { 'broken.svg': '<svg xmlns="http://www.w3.org/2000/svg"><path d="M1 1h22v22H1z" fill="currentColor"/></svg>' },
+      alpha: {
+        'broken.svg':
+          '<svg xmlns="http://www.w3.org/2000/svg"><path d="M1 1h22v22H1z" fill="currentColor"/></svg>',
+      },
     })
     try {
       await expect(generateIcons(baseTarget(fixture))).rejects.toThrow(
