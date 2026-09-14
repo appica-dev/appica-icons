@@ -25,7 +25,7 @@ Requires React 19 or later. ESM only.
 
 ## Usage
 
-Every icon is a named export from the package root. Import what you use; the rest is shaken out.
+Import icons from the package root:
 
 ```tsx
 import { Bold, Italic, Underline, Link } from '@appica/icons-react'
@@ -42,15 +42,26 @@ export function Toolbar() {
 }
 ```
 
-Every icon is exported under both a bare name and an `…Icon` alias — they resolve to the same component. The alias is useful when a name clashes with your own components:
+Every icon exports its component as a bare named export and an `…Icon` alias, both pointing at the same component:
 
 ```tsx
 import { Bold, BoldIcon } from '@appica/icons-react'
-// Bold === BoldIcon
 
-// use the alias to avoid a naming conflict
-import { Link as LinkIcon } from '@appica/icons-react'
+// Bold === BoldIcon
 ```
+
+### Direct file imports
+
+For a smaller dev-time module graph — or when you prefer an explicit import — every icon is also published as its own module at `@appica/icons-react/icons/<category>/<file>`:
+
+```tsx
+import BoldDefault, { Bold, BoldIcon } from '@appica/icons-react/icons/text-editing/bold'
+
+// BoldDefault === Bold
+// Bold === BoldIcon
+```
+
+There are no category barrels: paths like `@appica/icons-react/animals` or `@appica/icons-react/icons/animals` do not resolve. Import from the package root or from a single icon file.
 
 ### Props
 
