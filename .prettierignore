@@ -21,3 +21,6 @@ coverage
 
 # Claude Code skills & config
 .claude
+
+# Agent workflow artifacts
+.agent
