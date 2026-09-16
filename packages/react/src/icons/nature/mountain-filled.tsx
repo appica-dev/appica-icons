@@ -1,4 +1,0 @@
-import { createIcon } from "../../createIcon.js";
-const MountainFilled = createIcon("MountainFilled", "<path d=\"m6.326 10.94 2.476 3.1.082.09a.975.975 0 0 0 1.368-.01l1.596-1.599 1.29 1.938a.977.977 0 0 0 1.421.22l3.541-2.836 3.556 7.513a.977.977 0 0 1-.881 1.394H3.225a.974.974 0 0 1-.881-1.394zM12 3.25a3.22 3.22 0 0 1 2.908 1.843l2.335 4.936-3.072 2.46-1.36-2.042-.073-.097a.98.98 0 0 0-1.095-.27 1 1 0 0 0-.332.219l-1.668 1.668-1.269-1.588-1.122-1.401 1.84-3.885A3.22 3.22 0 0 1 12 3.25\"/>");
-export { MountainFilled, MountainFilled as MountainFilledIcon };
-export default MountainFilled;

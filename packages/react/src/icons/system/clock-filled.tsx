@@ -1,4 +1,0 @@
-import { createIcon } from "../../createIcon.js";
-const ClockFilled = createIcon("ClockFilled", "<path d=\"M16.875 3.556a9.75 9.75 0 1 1-14.62 8.76L2.25 12l.005-.316a9.75 9.75 0 0 1 14.62-8.128M12 6.15a.975.975 0 0 0-.968.86l-.007.115V12l.009.128c.022.169.088.33.192.465l.085.097 2.925 2.925.091.08a.975.975 0 0 0 1.196 0l.091-.08.081-.092a.975.975 0 0 0 0-1.196l-.08-.091-2.64-2.64V7.124l-.007-.114A.975.975 0 0 0 12 6.15\"/>");
-export { ClockFilled, ClockFilled as ClockFilledIcon };
-export default ClockFilled;

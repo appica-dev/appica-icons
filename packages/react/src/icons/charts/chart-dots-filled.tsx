@@ -1,4 +1,0 @@
-import { createIcon } from "../../createIcon.js";
-const ChartDotsFilled = createIcon("ChartDotsFilled", "<path d=\"M3.225 2.25a.975.975 0 0 1 .975.975V19.8h16.575a.975.975 0 0 1 .968.86l.007.115a.975.975 0 0 1-.975.975H3.225a.975.975 0 0 1-.975-.975V3.225a.975.975 0 0 1 .975-.975\"/><path d=\"M18.825 4.2a2.925 2.925 0 1 1-.635 5.782l-1.952 3.122a2.925 2.925 0 1 1-4.803.328L10.09 11.82a2.925 2.925 0 1 1 1.5-1.25l1.343 1.612a2.9 2.9 0 0 1 1.65-.112l1.953-3.123A2.925 2.925 0 0 1 18.825 4.2\"/>");
-export { ChartDotsFilled, ChartDotsFilled as ChartDotsFilledIcon };
-export default ChartDotsFilled;

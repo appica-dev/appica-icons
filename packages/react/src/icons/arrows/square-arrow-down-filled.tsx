@@ -1,4 +1,0 @@
-import { createIcon } from "../../createIcon.js";
-const SquareArrowDownFilled = createIcon("SquareArrowDownFilled", "<path d=\"M18.825 2.25a2.925 2.925 0 0 1 2.925 2.925v13.65a2.925 2.925 0 0 1-2.925 2.925H5.175a2.925 2.925 0 0 1-2.925-2.925V5.175A2.925 2.925 0 0 1 5.175 2.25zM12 7.125a.975.975 0 0 0-.975.975v5.445l-2.236-2.234-.091-.081a.975.975 0 0 0-1.287 1.46l3.9 3.9.091.08.09.063.096.05.107.043.109.03.123.016.073.003.114-.007.145-.028.103-.034.11-.053.108-.07a1 1 0 0 0 .11-.094l3.9-3.9.08-.091a.975.975 0 0 0-.08-1.287l-.092-.081a.975.975 0 0 0-1.287.08l-2.236 2.235V8.1l-.007-.114A.976.976 0 0 0 12 7.125\"/>");
-export { SquareArrowDownFilled, SquareArrowDownFilled as SquareArrowDownFilledIcon };
-export default SquareArrowDownFilled;

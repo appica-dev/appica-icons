@@ -1,4 +1,0 @@
-import { createIcon } from "../../createIcon.js";
-const MailFilled = createIcon("MailFilled", "<path d=\"M21.75 7.675v9.169c0 .741-.285 1.454-.797 1.994a2.93 2.93 0 0 1-1.956.907l-.172.005H5.175a2.94 2.94 0 0 1-2.007-.792 2.9 2.9 0 0 1-.913-1.944l-.005-.17v-9.17l9.209 6.1.113.065a.98.98 0 0 0 .856 0l.113-.064z\"/><path d=\"M18.825 4.25c1.053 0 1.976.552 2.491 1.382L12 11.803l-9.316-6.17a2.937 2.937 0 0 1 2.295-1.376l.196-.007z\"/>");
-export { MailFilled, MailFilled as MailFilledIcon };
-export default MailFilled;

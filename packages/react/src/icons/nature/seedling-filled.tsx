@@ -1,4 +1,0 @@
-import { createIcon } from "../../createIcon.js";
-const SeedlingFilled = createIcon("SeedlingFilled", "<path d=\"M6.15 3.25c1.668 0 3.278.608 4.526 1.71a6.8 6.8 0 0 1 2.25 4.274 6.8 6.8 0 0 1 4.924-2.095h2.925a.976.976 0 0 1 .975.972v.972c0 1.805-.72 3.536-1.999 4.813a6.84 6.84 0 0 1-4.826 1.993h-1.95v3.889a.97.97 0 0 1-.975.972.976.976 0 0 1-.975-.972v-6.806h-1.95a6.84 6.84 0 0 1-4.826-1.993A6.8 6.8 0 0 1 2.25 6.167V4.222a.97.97 0 0 1 .975-.972z\"/>");
-export { SeedlingFilled, SeedlingFilled as SeedlingFilledIcon };
-export default SeedlingFilled;

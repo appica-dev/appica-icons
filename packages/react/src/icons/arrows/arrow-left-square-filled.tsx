@@ -1,4 +1,0 @@
-import { createIcon } from "../../createIcon.js";
-const ArrowLeftSquareFilled = createIcon("ArrowLeftSquareFilled", "<path d=\"M6.84 8.525a.92.92 0 0 1 .285.662.92.92 0 0 1-.286.663l-1.26 1.212H15.9v-.937a.92.92 0 0 1 .286-.663 1 1 0 0 1 .689-.275h3.9c.259 0 .507.1.69.275a.92.92 0 0 1 .285.663v3.75a.92.92 0 0 1-.286.663 1 1 0 0 1-.689.275h-3.9a1 1 0 0 1-.69-.275.92.92 0 0 1-.285-.663v-.937H5.58l1.26 1.212a.913.913 0 0 1 .08 1.238l-.08.088a1 1 0 0 1-.69.274 1 1 0 0 1-.69-.274l-2.924-2.813a1 1 0 0 1-.095-.105l-.07-.103-.052-.107-.034-.099-.024-.11-.007-.055L2.25 12l.003-.07.016-.118.03-.104.043-.105.05-.091.066-.09.078-.085L5.46 8.525a1 1 0 0 1 .689-.275c.259 0 .506.099.69.274\"/>");
-export { ArrowLeftSquareFilled, ArrowLeftSquareFilled as ArrowLeftSquareFilledIcon };
-export default ArrowLeftSquareFilled;

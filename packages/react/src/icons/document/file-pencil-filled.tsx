@@ -1,4 +1,0 @@
-import { createIcon } from "../../createIcon.js";
-const FilePencilFilled = createIcon("FilePencilFilled", "<path d=\"m12 2.25.113.007a.966.966 0 0 1 .849.854l.007.114v3.9l.005.146c.034.465.233.901.56 1.23.326.33.759.532 1.22.568l.152.006h3.875l.114.007a.977.977 0 0 1 .849.854l.006.114v8.775c0 .746-.283 1.464-.792 2.007a2.9 2.9 0 0 1-1.944.913l-.17.005H7.156a2.9 2.9 0 0 1-1.994-.797 2.93 2.93 0 0 1-.907-1.956l-.005-.172V5.175c0-.746.283-1.464.792-2.007a2.9 2.9 0 0 1 1.944-.913l.17-.005zm.969 9.75-4.844 4.875v1.95h1.938l4.843-4.875a1.383 1.383 0 0 0 0-1.95 1.365 1.365 0 0 0-1.937 0\"/><path d=\"M18.781 7.125h-3.875V3.224z\"/>");
-export { FilePencilFilled, FilePencilFilled as FilePencilFilledIcon };
-export default FilePencilFilled;

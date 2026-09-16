@@ -1,4 +1,0 @@
-import { createIcon } from "../../createIcon.js";
-const ArrowUpRhombusFilled = createIcon("ArrowUpRhombusFilled", "<path d=\"m11.994 2.25.076.003.112.016.104.03.104.043.092.05.097.073.077.07 2.808 2.926q.135.136.21.316a1.01 1.01 0 0 1-.198 1.074.904.904 0 0 1-1.335-.012l-1.21-1.26v9.917l2.065 2.152c.176.183.274.431.274.69a1 1 0 0 1-.274.689l-2.34 2.438a.92.92 0 0 1-.662.285.92.92 0 0 1-.662-.285l-2.34-2.438a1 1 0 0 1-.274-.69c0-.258.099-.506.274-.689l2.066-2.153V5.58l-1.21 1.26a.91.91 0 0 1-1.236.08l-.088-.08a1 1 0 0 1-.274-.69c0-.259.099-.506.274-.69l2.808-2.924.105-.095.103-.07.058-.03.076-.033.071-.023.11-.024.055-.007z\"/>");
-export { ArrowUpRhombusFilled, ArrowUpRhombusFilled as ArrowUpRhombusFilledIcon };
-export default ArrowUpRhombusFilled;

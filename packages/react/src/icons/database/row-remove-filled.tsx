@@ -1,4 +1,0 @@
-import { createIcon } from "../../createIcon.js";
-const RowRemoveFilled = createIcon("RowRemoveFilled", "<path d=\"M14.632 14.96a.973.973 0 0 0-1.375 0L12 16.217l-1.257-1.255a.973.973 0 0 0-1.375 0 .97.97 0 0 0 0 1.372l1.257 1.255-1.257 1.255a.97.97 0 0 0 0 1.373c.38.379.995.379 1.375 0L12 18.96l1.257 1.255c.38.379.995.379 1.375 0a.97.97 0 0 0 0-1.373l-1.257-1.255 1.257-1.255a.97.97 0 0 0 0-1.372M20.75 9.824a1.945 1.945 0 0 1-1.944 1.941H5.194A1.946 1.946 0 0 1 3.25 9.824V5.94A1.94 1.94 0 0 1 5.194 4h13.612a1.946 1.946 0 0 1 1.944 1.941z\"/>");
-export { RowRemoveFilled, RowRemoveFilled as RowRemoveFilledIcon };
-export default RowRemoveFilled;

@@ -12,7 +12,7 @@
     "rootDir": "src",
     "skipLibCheck": true,
     "esModuleInterop": true,
-    "types": ["node"],
+    "types": ["node", "vite/client"],
     "ignoreDeprecations": "6.0"
   },
   "include": ["src/**/*"],

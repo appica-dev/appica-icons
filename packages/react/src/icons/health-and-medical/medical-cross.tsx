@@ -1,4 +1,0 @@
-import { createIcon } from "../../createIcon.js";
-const MedicalCross = createIcon("MedicalCross", "<path d=\"M13.009 3c.267 0 .524.105.713.293.189.187.295.442.295.707v4.535l3.962-2.267a1.016 1.016 0 0 1 1.377.366l1.009 1.732a.99.99 0 0 1-.37 1.366L16.036 12l3.96 2.269a.992.992 0 0 1 .37 1.366l-1.009 1.732a1.016 1.016 0 0 1-1.378.366l-3.96-2.269V20c0 .265-.107.52-.296.707-.19.188-.446.293-.713.293h-2.017c-.268 0-.525-.105-.714-.293A1 1 0 0 1 9.983 20v-4.536L6.02 17.732a1.016 1.016 0 0 1-1.377-.366l-1.009-1.732a.993.993 0 0 1 .37-1.366L7.964 12l-3.96-2.268a.993.993 0 0 1-.37-1.366l1.009-1.732a1.016 1.016 0 0 1 1.378-.366l3.96 2.267V4c0-.265.107-.52.296-.707.19-.188.446-.293.713-.293z\"/>", { fill: "none", stroke: "currentColor", strokeWidth: "1.5", strokeLinecap: "round", strokeLinejoin: "round" });
-export { MedicalCross, MedicalCross as MedicalCrossIcon };
-export default MedicalCross;

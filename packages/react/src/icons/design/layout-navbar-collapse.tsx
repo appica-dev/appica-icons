@@ -1,4 +1,0 @@
-import { createIcon } from "../../createIcon.js";
-const LayoutNavbarCollapse = createIcon("LayoutNavbarCollapse", "<path d=\"M4 9h16m-10 7 2-2 2 2M4 18V6a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2\"/>", { fill: "none", stroke: "currentColor", strokeWidth: "1.5", strokeLinecap: "round", strokeLinejoin: "round" });
-export { LayoutNavbarCollapse, LayoutNavbarCollapse as LayoutNavbarCollapseIcon };
-export default LayoutNavbarCollapse;

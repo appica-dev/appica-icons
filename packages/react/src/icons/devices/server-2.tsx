@@ -1,4 +1,0 @@
-import { createIcon } from "../../createIcon.js";
-const Server2 = createIcon("Server2", "<path d=\"M18 12a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3H6a3 3 0 0 0-3 3v2a3 3 0 0 0 3 3m12 0H6m12 0a3 3 0 0 1 3 3v2a3 3 0 0 1-3 3H6a3 3 0 0 1-3-3v-2a3 3 0 0 1 3-3m1-4v.01M7 16v.01M11 8h6m-6 8h6\"/>", { fill: "none", stroke: "currentColor", strokeWidth: "1.5", strokeLinecap: "round", strokeLinejoin: "round" });
-export { Server2, Server2 as Server2Icon };
-export default Server2;

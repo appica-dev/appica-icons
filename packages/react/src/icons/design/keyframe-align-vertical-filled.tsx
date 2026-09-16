@@ -1,4 +1,0 @@
-import { createIcon } from "../../createIcon.js";
-const KeyframeAlignVerticalFilled = createIcon("KeyframeAlignVerticalFilled", "<path d=\"M12 1.25c.233 0 .457.088.631.247s.285.378.313.616l.006.114v1.955c0 .25-.093.489-.26.67a.933.933 0 0 1-1.3.079.99.99 0 0 1-.333-.635l-.007-.114V2.227c0-.259.1-.507.278-.69A.94.94 0 0 1 12 1.25M12 6.137c-.598 0-1.153.294-1.526.788l-2.763 3.663c-.297.405-.46.897-.461 1.404s.156 1 .45 1.407l2.774 3.677c.37.493.928.788 1.526.788s1.153-.294 1.526-.788l2.763-3.663c.297-.404.46-.897.461-1.404s-.156-1-.45-1.407l-2.774-3.677a1.95 1.95 0 0 0-.674-.577A1.9 1.9 0 0 0 12 6.137M12 18.842c.233 0 .457.088.631.247a1 1 0 0 1 .313.616l.006.114v1.955c0 .249-.093.488-.26.67a.933.933 0 0 1-1.3.078.99.99 0 0 1-.333-.634l-.007-.114v-1.955c0-.26.1-.508.278-.691a.94.94 0 0 1 .672-.286\"/>");
-export { KeyframeAlignVerticalFilled, KeyframeAlignVerticalFilled as KeyframeAlignVerticalFilledIcon };
-export default KeyframeAlignVerticalFilled;

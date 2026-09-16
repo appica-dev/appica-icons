@@ -1,4 +1,0 @@
-import { createIcon } from "../../createIcon.js";
-const CodeCircleFilled = createIcon("CodeCircleFilled", "<path d=\"M16.875 3.556A9.75 9.75 0 1 1 2.25 12l.005-.316a9.75 9.75 0 0 1 14.62-8.128m-6.136 5.805a.975.975 0 0 0-1.378 0l-1.95 1.95a.975.975 0 0 0 0 1.378l1.95 1.95a.975.975 0 0 0 1.378 0l.081-.091a.975.975 0 0 0-.08-1.287L9.48 12l1.26-1.26a.975.975 0 0 0 0-1.38m3.9 0a.975.975 0 0 0-1.378 0l-.081.091a.975.975 0 0 0 .08 1.287L14.52 12l-1.26 1.261a.975.975 0 0 0 1.38 1.38l1.95-1.95a.975.975 0 0 0 0-1.38z\"/>");
-export { CodeCircleFilled, CodeCircleFilled as CodeCircleFilledIcon };
-export default CodeCircleFilled;

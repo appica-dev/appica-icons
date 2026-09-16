@@ -1,4 +1,0 @@
-import { createIcon } from "../../createIcon.js";
-const OctagonPlusFilled = createIcon("OctagonPlusFilled", "<path d=\"m13.168 1.49 5.449 2.335c.7.3 1.258.858 1.559 1.558l2.334 5.447c.32.746.32 1.593 0 2.338l-2.336 5.449c-.3.7-.858 1.258-1.558 1.559l-5.447 2.333a2.96 2.96 0 0 1-2.339 0l-5.448-2.334c-.7-.3-1.258-.859-1.558-1.56L1.49 13.169a2.97 2.97 0 0 1 0-2.337l2.335-5.449c.3-.7.858-1.258 1.557-1.559L10.83 1.49a2.97 2.97 0 0 1 2.338 0m-1.169 6.6a.977.977 0 0 0-.977.978v1.954H9.067a.977.977 0 1 0 0 1.955h1.955v1.954a.977.977 0 0 0 1.954 0v-1.954h1.955a.977.977 0 0 0 0-1.955h-1.954V9.068a.977.977 0 0 0-.978-.978\"/>");
-export { OctagonPlusFilled, OctagonPlusFilled as OctagonPlusFilledIcon };
-export default OctagonPlusFilled;

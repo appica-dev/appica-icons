@@ -1,4 +1,0 @@
-import { createIcon } from "../../createIcon.js";
-const Dice6 = createIcon("Dice6", "<path fill=\"currentColor\" d=\"M8 7.5a.5.5 0 1 0 1 0 .5.5 0 0 0-1 0M15 7.5a.5.5 0 1 0 1 0 .5.5 0 0 0-1 0M8 12a.5.5 0 1 0 1 0 .5.5 0 0 0-1 0M15 12a.5.5 0 1 0 1 0 .5.5 0 0 0-1 0M15 16.5a.5.5 0 1 0 1 0 .5.5 0 0 0-1 0M8 16.5a.5.5 0 1 0 1 0 .5.5 0 0 0-1 0\"/><path d=\"M3 5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z\"/><path d=\"M8 7.5a.5.5 0 1 0 1 0 .5.5 0 0 0-1 0M15 7.5a.5.5 0 1 0 1 0 .5.5 0 0 0-1 0M8 12a.5.5 0 1 0 1 0 .5.5 0 0 0-1 0M15 12a.5.5 0 1 0 1 0 .5.5 0 0 0-1 0M15 16.5a.5.5 0 1 0 1 0 .5.5 0 0 0-1 0M8 16.5a.5.5 0 1 0 1 0 .5.5 0 0 0-1 0\"/>", { fill: "none", stroke: "currentColor", strokeWidth: "1.5", strokeLinecap: "round", strokeLinejoin: "round" });
-export { Dice6, Dice6 as Dice6Icon };
-export default Dice6;

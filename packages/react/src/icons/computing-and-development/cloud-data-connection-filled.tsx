@@ -1,4 +1,0 @@
-import { createIcon } from "../../createIcon.js";
-const CloudDataConnectionFilled = createIcon("CloudDataConnectionFilled", "<path d=\"M15.18 4.306c.95.747 1.527 1.797 1.637 2.914l.006.104.176.024c.75.121 1.436.494 1.944 1.057a3.32 3.32 0 0 1 .851 2.038l.006.183a3.32 3.32 0 0 1-.981 2.347 3.34 3.34 0 0 1-2.358.97h-3.486l.001 1.138a2.93 2.93 0 0 1 1.783 1.778h6.016a.976.976 0 0 1 .975.972.97.97 0 0 1-.975.972h-6.016a2.932 2.932 0 0 1-5.519 0H3.226a.977.977 0 0 1-.975-.972.97.97 0 0 1 .975-.972h6.017a2.92 2.92 0 0 1 1.783-1.779v-1.137H8.354c-2.283 0-4.154-1.775-4.154-3.989 0-1.945 1.444-3.553 3.344-3.914l.084-.014.048-.11c.501-1.092 1.47-1.953 2.687-2.378l.216-.07c1.587-.476 3.334-.161 4.602.838\"/>");
-export { CloudDataConnectionFilled, CloudDataConnectionFilled as CloudDataConnectionFilledIcon };
-export default CloudDataConnectionFilled;

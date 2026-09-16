@@ -1,4 +1,0 @@
-import { createIcon } from "../../createIcon.js";
-const ZoomOutArea = createIcon("ZoomOutArea", "<path d=\"M13 15h4m5 7-3-3M6 18H5a2 2 0 0 1-2-2v-1m0-4v-1m0-4V5a2 2 0 0 1 2-2h1m4 0h1m4 0h1a2 2 0 0 1 2 2v1m-8 9a5 5 0 1 0 10 0 5 5 0 0 0-10 0\"/>", { fill: "none", stroke: "currentColor", strokeWidth: "1.5", strokeLinecap: "round", strokeLinejoin: "round" });
-export { ZoomOutArea, ZoomOutArea as ZoomOutAreaIcon };
-export default ZoomOutArea;

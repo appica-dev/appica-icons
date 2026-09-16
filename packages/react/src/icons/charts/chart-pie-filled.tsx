@@ -1,4 +1,0 @@
-import { createIcon } from "../../createIcon.js";
-const ChartPieFilled = createIcon("ChartPieFilled", "<path d=\"M9.994 2.263a1.875 1.875 0 0 1 2.06 1.5l.024.165.005.103v6.903a.986.986 0 0 0 .87.98l.116.006h6.708a1.973 1.973 0 0 1 1.973 1.972q0 .113-.026.223a9.86 9.86 0 0 1-6.828 7.235 9.867 9.867 0 0 1-12.287-6.824A9.86 9.86 0 0 1 9.621 2.348l.266-.066.108-.02\"/><path d=\"M14.056 3.538v5.424a.986.986 0 0 0 .986.986h5.426a.987.987 0 0 0 .93-1.314 9.86 9.86 0 0 0-6.027-6.026.987.987 0 0 0-1.315.93\"/>");
-export { ChartPieFilled, ChartPieFilled as ChartPieFilledIcon };
-export default ChartPieFilled;

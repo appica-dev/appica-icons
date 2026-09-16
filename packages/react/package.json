@@ -41,20 +41,26 @@
     ".": {
       "types": "./dist/index.d.ts",
       "import": "./dist/index.js"
+    },
+    "./icons/*": {
+      "types": "./dist/icons/*.d.ts",
+      "import": "./dist/icons/*.js"
     }
   },
   "files": [
     "dist"
   ],
   "scripts": {
-    "clean": "rm -rf dist src/icons",
+    "clean:generated": "rm -rf src/icons",
+    "clean:dist": "rm -rf dist",
     "codegen": "tsx scripts/build.ts",
-    "build": "pnpm run codegen && tsup",
-    "build:lib": "tsup",
+    "build": "pnpm run codegen && pnpm run build:lib",
+    "build:lib": "tsup && tsc --emitDeclarationOnly -p tsconfig.build.json",
     "typecheck": "tsc --noEmit",
     "test": "vitest run",
     "test:watch": "vitest",
-    "prepublishOnly": "pnpm run clean && pnpm run build && pnpm run test"
+    "release:check": "pnpm run clean:generated && pnpm run clean:dist && pnpm run codegen && pnpm run typecheck && pnpm run test && pnpm run build:lib",
+    "prepublishOnly": "pnpm run release:check"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^6.9.1",

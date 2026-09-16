@@ -1,4 +1,0 @@
-import { createIcon } from "../../createIcon.js";
-const BuildingHotel2 = createIcon("BuildingHotel2", "<path d=\"M3.45 7.25V17.7c0 1.791 0 2.687.556 3.243s1.452.556 3.244.556h2.85m4.751-18.05A4.73 4.73 0 0 0 12 2.5a4.73 4.73 0 0 0-2.85.95c-1.153.867-1.9 2.246-1.9 3.8h-3.8m0 0H2.5c.407-1.627.813-2.789 1.518-3.487.237-.235.535-.313.83-.313H9.15m5.701 0c1.153.867 1.899 2.246 1.899 3.8h3.8m-5.699-3.8h4.301c.295 0 .594.078.83.313.705.698 1.111 1.861 1.518 3.487h-.95m0 0V17.7c0 1.791 0 2.687-.556 3.243s-1.452.556-3.244.556H13.9m0 0v-3.8a1.9 1.9 0 1 0-3.8 0v3.8m3.8 0h-3.8M6.3 11.05h.475M6.3 14.375h.475m10.45-3.325h.475m-.475 3.325h.475M10.575 8.2v1.425m0 0v1.425m0-1.425h2.85m0-1.425v1.425m0 0v1.425\"/>", { fill: "none", stroke: "currentColor", strokeWidth: "1.5", strokeLinecap: "round", strokeLinejoin: "round" });
-export { BuildingHotel2, BuildingHotel2 as BuildingHotel2Icon };
-export default BuildingHotel2;

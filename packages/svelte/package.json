@@ -42,20 +42,29 @@
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
-      "svelte": "./dist/index.js"
+      "svelte": "./dist/index.js",
+      "default": "./dist/index.js"
+    },
+    "./icons/*": {
+      "types": "./dist/icons/*.d.ts",
+      "svelte": "./dist/icons/*.js",
+      "default": "./dist/icons/*.js"
     }
   },
   "files": [
     "dist"
   ],
   "scripts": {
-    "clean": "rm -rf dist src/icons",
+    "clean:generated": "rm -rf src/icons",
+    "clean:dist": "rm -rf dist",
     "codegen": "tsx scripts/build.ts",
-    "build": "pnpm run codegen && svelte-package --input src",
+    "build": "pnpm run codegen && pnpm run build:lib",
+    "build:lib": "svelte-package --input src",
     "typecheck": "svelte-check --tsconfig ./tsconfig.check.json",
     "test": "vitest run",
     "test:watch": "vitest",
-    "prepublishOnly": "pnpm run clean && pnpm run build && pnpm run test"
+    "release:check": "pnpm run clean:generated && pnpm run clean:dist && pnpm run codegen && pnpm run typecheck && pnpm run test && pnpm run build:lib",
+    "prepublishOnly": "pnpm run release:check"
   },
   "devDependencies": {
     "@sveltejs/package": "^2.5.8",

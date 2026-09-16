@@ -1,4 +1,0 @@
-import { createIcon } from "../../createIcon.js";
-const SparkleHighlight = createIcon("SparkleHighlight", "<path d=\"M14.504 8.522L12.746 4.49c-.063-.145-.168-.269-.3-.355s-.287-.133-.446-.133-.313.046-.446.133-.237.21-.3.355L9.495 8.522c-.19.436-.537.784-.973.973L4.49 11.254c-.145.063-.269.168-.355.3s-.133.287-.133.446.046.313.133.446.21.237.355.3l4.033 1.758a1.88 1.88 0 0 1 .973.974l1.759 4.033c.063.145.168.269.3.355s.287.133.446.133.313-.046.446-.133.237-.21.3-.355l1.758-4.033c.19-.436.538-.784.974-.974l4.033-1.758c.145-.063.269-.168.355-.3S20 12.158 20 12s-.046-.313-.133-.446-.21-.237-.355-.3l-4.033-1.759a1.88 1.88 0 0 1-.974-.973M3 3l2 2m16-2l-2 2M3 21l2-2m16 2l-2-2\"/>", { fill: "none", stroke: "currentColor", strokeWidth: "1.5", strokeLinecap: "round", strokeLinejoin: "round" });
-export { SparkleHighlight, SparkleHighlight as SparkleHighlightIcon };
-export default SparkleHighlight;

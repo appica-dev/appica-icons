@@ -1,4 +1,0 @@
-import { createIcon } from "../../createIcon.js";
-const SquareChevronRightFilled = createIcon("SquareChevronRightFilled", "<path d=\"M18.825 2.25a2.925 2.925 0 0 1 2.925 2.925v13.65a2.925 2.925 0 0 1-2.925 2.925H5.175a2.925 2.925 0 0 1-2.925-2.925V5.175A2.925 2.925 0 0 1 5.175 2.25zm-7.202 6.055a.975.975 0 0 0-1.287.08l-.081.092a.975.975 0 0 0 .08 1.287L12.57 12l-2.234 2.236-.081.091a.975.975 0 0 0 1.46 1.287l2.924-2.925.081-.091a.975.975 0 0 0-.08-1.287l-2.926-2.925z\"/>");
-export { SquareChevronRightFilled, SquareChevronRightFilled as SquareChevronRightFilledIcon };
-export default SquareChevronRightFilled;
