@@ -120,6 +120,10 @@ function Button({ icon: Icon, label }: { icon: IconComponent; label: string }) {
 const MyIcon = (props: IconProps) => <Bold className="shrink-0" {...props} />
 ```
 
+## Changelog
+
+What changed in each release is in [`CHANGELOG.md`](./CHANGELOG.md), next to this file, and on [appica.dev/ui/icons](https://appica.dev/ui/icons) alongside the documentation and Figma updates that shipped with it.
+
 ## Figma design file
 
 The full icon collection is included in the free [Appica UI Figma file](https://www.figma.com/community/file/1657080448204231925), alongside the component library it pairs with — use the same icons in your designs that you import in code.
