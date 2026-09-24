@@ -21,7 +21,7 @@
     "release:svelte": "pnpm --filter @appica/icons-svelte publish"
   },
   "devDependencies": {
-    "prettier": "^3.9.4",
-    "vitest": "^4.1.10"
+    "prettier": "^3.9.9",
+    "vitest": "^5.0.1"
   }
 }

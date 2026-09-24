@@ -21,7 +21,8 @@ function buildPresentationProps(record: IconRecord): string {
   if (stroke !== undefined) lines.push(`stroke={${JSON.stringify(stroke)}}`)
   if (strokeWidth !== undefined) lines.push(`stroke-width={${JSON.stringify(strokeWidth)}}`)
   if (strokeLinecap !== undefined) lines.push(`stroke-linecap={${JSON.stringify(strokeLinecap)}}`)
-  if (strokeLinejoin !== undefined) lines.push(`stroke-linejoin={${JSON.stringify(strokeLinejoin)}}`)
+  if (strokeLinejoin !== undefined)
+    lines.push(`stroke-linejoin={${JSON.stringify(strokeLinejoin)}}`)
   if (strokeMiterlimit !== undefined) {
     lines.push(`stroke-miterlimit={${JSON.stringify(strokeMiterlimit)}}`)
   }

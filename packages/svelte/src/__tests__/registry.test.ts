@@ -44,9 +44,10 @@ describe('registry: structural integrity', () => {
       expected.add(`${displayName}Icon`)
       expect(component, `Missing default export for "${path}"`).toBeTruthy()
       expect(rootExports[displayName], `Missing root export "${displayName}"`).toBe(component)
-      expect(rootExports[`${displayName}Icon`], `Missing root alias export "${displayName}Icon"`).toBe(
-        component,
-      )
+      expect(
+        rootExports[`${displayName}Icon`],
+        `Missing root alias export "${displayName}Icon"`,
+      ).toBe(component)
     }
 
     expect(rootExports.Icon).toBeTruthy()
