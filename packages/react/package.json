@@ -1,6 +1,6 @@
 {
   "name": "@appica/icons-react",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Tree-shakeable SVG icon components for React — use standalone or as part of the Appica UI.",
   "license": "MIT",
   "homepage": "https://appica.dev/ui/icons",
