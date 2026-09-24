@@ -62,6 +62,8 @@ $RECYCLE.BIN/
 .continue/
 .windsurfrules
 .github/copilot-instructions.md
+.agents/
+.mcp.json
 
 # Monorepo tooling
 .turbo/
