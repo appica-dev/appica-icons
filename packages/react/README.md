@@ -5,7 +5,7 @@
 [![TypeScript](https://img.shields.io/badge/TypeScript-ready-blue)](https://www.typescriptlang.org/)
 [![Figma](https://img.shields.io/badge/Figma-design_file-F24E1E?logo=figma&logoColor=white)](https://www.figma.com/community/file/1657080448204231925)
 
-~5,000 tree-shakeable SVG icon components for React.
+5,000+ tree-shakeable SVG icon components for React.
 
 Icons are sourced primarily from [Tabler Icons](https://tabler.io/icons), with a selection from [Hugeicons](https://hugeicons.com) and some custom designs. All icons are normalized, consistently refined, optimized for smaller file size, and organized into categories.
 
