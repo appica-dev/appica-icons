@@ -12,7 +12,7 @@ SVG sources live in [`assets/`](./assets), organized by category — each framew
 | ------------------------------------------------------------- | --------------------- | ------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------- |
 | <img src=".github/assets/react.svg" width="35" alt="React" /> | `@appica/icons-react` | [![npm](https://img.shields.io/npm/v/@appica/icons-react)](https://www.npmjs.com/package/@appica/icons-react) | [Docs](https://appica.dev/ui/icons) · [Changelog](packages/react/CHANGELOG.md) · [Source](packages/react) |
 
-<!-- | **Svelte 5**                                                  | `@appica/icons-svelte` | [![npm](https://img.shields.io/npm/v/@appica/icons-svelte)](https://www.npmjs.com/package/@appica/icons-svelte) | [Docs](https://appica.dev/ui/icons) · [Source](packages/svelte) | -->
+<!-- | <img src=".github/assets/svelte.svg" width="35" alt="Svelte" /> | `@appica/icons-svelte` | [![npm](https://img.shields.io/npm/v/@appica/icons-svelte)](https://www.npmjs.com/package/@appica/icons-svelte) | [Docs](https://appica.dev/ui/icons) · [Source](packages/svelte) | -->
 
 More variants are planned — webfont, Vue and more.
 
