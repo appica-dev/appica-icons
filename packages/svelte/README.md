@@ -119,6 +119,10 @@ Full TypeScript support is built in. `IconProps` is exported for use in your own
 import type { IconProps } from '@appica/icons-svelte'
 ```
 
+## Changelog
+
+What changed in each release is in [`CHANGELOG.md`](./CHANGELOG.md), next to this file.
+
 ## Figma design file
 
 The full icon collection is included in the free [Appica UI Figma file](https://www.figma.com/community/file/1657080448204231925), alongside the component library it pairs with — use the same icons in your designs that you import in code.

@@ -46,19 +46,20 @@ Icon components are generated, not hand-written: [`assets/`](./assets) holds the
 
 [`packages/react/scripts/build.ts`](./packages/react/scripts/build.ts) is the reference implementation — the examples below show only the hooks that differ per framework.
 
-**Svelte 5** — every icon is a thin wrapper around `Icon.svelte` that receives `innerSvg` plus the kebab-case presentation attributes (`stroke-width`, …) and spreads consumer props onto the `<svg>`:
+**Svelte 5** — every icon is a thin wrapper around `Icon.svelte` that receives `innerSvg` plus the icon's presentation attributes and spreads consumer props last, so they win. The stroke width goes through `Icon`'s camelCase `strokeWidth` prop — a kebab-case `stroke-width` would bypass it and override the consumer's `strokeWidth`. The `$props()` annotation is required: without it, svelte-package emits declarations that leave the icon's props untyped. Direct imports map `./icons/*` to the `.svelte` files and their `.svelte.d.ts` declarations, since svelte-package emits no per-icon `.js`:
 
 ```ts
 generateIcons({
   packageDir: PACKAGE_DIR,
   extension: '.svelte',
   renderIconFile({ innerSvg }) {
-    // Emit non-default presentation attrs as kebab-case props on the <Icon> wrapper
-    // (mirrors how the react template maps record.rootAttrs), then:
+    // Emit non-default presentation attrs as props on the <Icon> wrapper — `strokeWidth`, then
+    // kebab-case `stroke-linecap`, … (mirrors how the react template maps record.rootAttrs), then:
     return (
       `<script lang="ts">\n` +
-      `  import Icon from "../../Icon.svelte";\n\n` +
-      `  let props = $props();\n\n` +
+      `  import Icon from "../../Icon.svelte";\n` +
+      `  import type { IconProps } from "../../iconProps.js";\n\n` +
+      `  let props: Omit<IconProps, "innerSvg"> = $props();\n\n` +
       `  const innerSvg = ${JSON.stringify(innerSvg)};\n` +
       `</script>\n\n` +
       `<Icon\n` +

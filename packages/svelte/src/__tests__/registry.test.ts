@@ -1,4 +1,5 @@
-import { readdir } from 'node:fs/promises'
+import { existsSync } from 'node:fs'
+import { readdir, readFile } from 'node:fs/promises'
 import { join, dirname } from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { describe, it, expect } from 'vitest'
@@ -6,7 +7,8 @@ import { extractName } from '../../../../scripts/codegen/extractName.js'
 import * as RootExports from '../index.js'
 
 const __dirname = dirname(fileURLToPath(import.meta.url))
-const REPO_ROOT = join(__dirname, '..', '..', '..', '..')
+const PACKAGE_DIR = join(__dirname, '..', '..')
+const REPO_ROOT = join(PACKAGE_DIR, '..', '..')
 const ASSETS_DIR = join(REPO_ROOT, 'assets')
 
 const iconModules = import.meta.glob('../icons/*/*.svelte', { eager: true }) as Record<
@@ -30,6 +32,16 @@ async function listCategories(dir: string): Promise<string[]> {
 
 async function listSvgs(dir: string): Promise<string[]> {
   return (await readdir(dir)).filter((file) => file.endsWith('.svg')).sort()
+}
+
+/** Maps a published dist/ file to the src/ file svelte-package emits it from. */
+function sourceOf(distFile: string): string {
+  const file = distFile.replace(/^\.\/dist\//, '')
+  if (file.endsWith('.svelte.d.ts')) return file.slice(0, -'.d.ts'.length)
+  if (file.endsWith('.svelte')) return file
+  if (file.endsWith('.d.ts')) return `${file.slice(0, -'.d.ts'.length)}.ts`
+  if (file.endsWith('.js')) return `${file.slice(0, -'.js'.length)}.ts`
+  throw new Error(`Unexpected export target "${distFile}"`)
 }
 
 describe('registry: structural integrity', () => {
@@ -67,5 +79,17 @@ describe('registry: structural integrity', () => {
     const names = iconEntries.map(([path]) => componentNameFromPath(path))
     expect(names.every(Boolean)).toBe(true)
     expect(new Set(names).size).toBe(names.length)
+  })
+
+  it('points every package.json export condition at a file svelte-package emits', async () => {
+    const { exports } = JSON.parse(await readFile(join(PACKAGE_DIR, 'package.json'), 'utf-8'))
+    for (const [subpath, conditions] of Object.entries<Record<string, string>>(exports)) {
+      // Resolve subpath patterns with the direct import documented in the README.
+      const match = subpath.includes('*') ? 'text-editing/bold' : ''
+      for (const [condition, target] of Object.entries(conditions)) {
+        const source = join(PACKAGE_DIR, 'src', sourceOf(target.replace('*', match)))
+        expect(existsSync(source), `"${subpath}" [${condition}] → ${target}`).toBe(true)
+      }
+    }
   })
 })

@@ -19,7 +19,10 @@ function buildPresentationProps(record: IconRecord): string {
     lines.push(`fill={${JSON.stringify(fill)}}`)
   }
   if (stroke !== undefined) lines.push(`stroke={${JSON.stringify(stroke)}}`)
-  if (strokeWidth !== undefined) lines.push(`stroke-width={${JSON.stringify(strokeWidth)}}`)
+  // camelCase to match Icon's `strokeWidth` prop, so a consumer's `strokeWidth` spread over it
+  // wins. A kebab-case `stroke-width` would land in Icon's `...rest`, which is spread onto the
+  // <svg> after `stroke-width={strokeWidth}` and would silently override the consumer's value.
+  if (strokeWidth !== undefined) lines.push(`strokeWidth={${JSON.stringify(strokeWidth)}}`)
   if (strokeLinecap !== undefined) lines.push(`stroke-linecap={${JSON.stringify(strokeLinecap)}}`)
   if (strokeLinejoin !== undefined)
     lines.push(`stroke-linejoin={${JSON.stringify(strokeLinejoin)}}`)
@@ -34,8 +37,11 @@ function renderIconFile(record: IconRecord): string {
   const presentation = buildPresentationProps(record)
   return (
     `<script lang="ts">\n` +
-    `  import Icon from "../../Icon.svelte";\n\n` +
-    `  let props = $props();\n\n` +
+    `  import Icon from "../../Icon.svelte";\n` +
+    `  import type { IconProps } from "../../iconProps.js";\n\n` +
+    // Without an annotation, svelte-package emits a .d.ts that references an undeclared
+    // $$ComponentProps type, leaving every icon's props untyped for consumers.
+    `  let props: Omit<IconProps, "innerSvg"> = $props();\n\n` +
     `  const innerSvg = ${JSON.stringify(record.innerSvg)};\n` +
     `</script>\n\n` +
     `<Icon\n` +
