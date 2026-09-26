@@ -1,6 +1,6 @@
 {
   "name": "@appica/icons-svelte",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Tree-shakeable SVG icon components for Svelte 5 — use standalone or as part of the Appica UI.",
   "license": "MIT",
   "homepage": "https://appica.dev/ui/icons",
