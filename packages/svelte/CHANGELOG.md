@@ -4,6 +4,12 @@ All notable changes to `@appica/icons-svelte`.
 
 The library follows [semantic versioning](https://semver.org/spec/v2.0.0.html).
 
+## 1.0.2 - 2026-09-26
+
+### Fixed
+
+- **Svelte 5.0 to 5.14.2** — apps on these versions can now build with the icons. The published components contained TypeScript, which Svelte before 5.14.3 fails to compile with current dependencies (`Not implemented type annotation`), in the browser build for every icon and in server rendering for `Icon`. The components now ship as plain JavaScript; their types are unchanged.
+
 ## 1.0.1 - 2026-09-25
 
 ### Fixed

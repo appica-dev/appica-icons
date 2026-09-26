@@ -71,6 +71,8 @@ generateIcons({
 })
 ```
 
+The package's `svelte.config.js` preprocesses with `vitePreprocess({ script: true })`, so the published components are plain JavaScript: with current dependencies, Svelte before 5.14.3 can't compile TypeScript in `.svelte` files. The `packaging` test fails if TypeScript reaches the output.
+
 **Vue** — illustrative (the vue package is planned but not implemented yet; adapt the hooks to the component style you choose):
 
 ```ts
