@@ -1,9 +1,0 @@
-{
-  "extends": "./tsconfig.json",
-  "include": [
-    "src/Icon.svelte",
-    "src/iconProps.ts",
-    "src/icons/arrows/arrow-left.svelte",
-    "src/__tests__/iconTypes.ts"
-  ]
-}

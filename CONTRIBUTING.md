@@ -38,40 +38,13 @@ Icon components are generated, not hand-written: [`assets/`](./assets) holds the
 1. **Scaffold `packages/<framework>/`** with its package manifest and source files. No further wiring is needed: [`pnpm-workspace.yaml`](./pnpm-workspace.yaml) already includes `packages/*`, so the root `pnpm build`, `pnpm test`, and `pnpm typecheck` (`pnpm -r <script>`) pick the package up automatically, and `.gitignore` already covers its generated output.
 2. **Write a thin `scripts/build.ts`** — the pipeline itself lives in the shared core, so the script only calls `generateIcons(target)` from `../../../scripts/codegen/index.js` (i.e. `scripts/codegen/` at the repo root) and writes into `<packageDir>/src/icons/<category>/`. The target describes only the framework-specific pieces:
    - `packageDir` — absolute path of the package directory (`assetsDir` defaults to the repo's [`assets/`](./assets)),
-   - `extension` — component file extension, e.g. `".tsx"` or `".svelte"`,
+   - `extension` — component file extension, e.g. `".tsx"` or `".vue"`,
    - `renderIconFile(record)` — full content of one icon component file; `record` provides `category`, `name`, `componentName`, `aliasName`, `innerSvg` (the sanitized SVG body), `viewBox`, and `rootAttrs` (presentation attributes such as `strokeWidth`).
    - `renderRootBarrel(records)` — optional; when provided, the pipeline writes `src/icons/index.ts` re-exporting every generated icon (`records` provide `category`, `name`, `componentName`, and `aliasName`). Omit it when the package should not expose a package-root icon export.
 3. **Wire codegen and explicit cleanup into package scripts**, mirroring react: `"codegen": "tsx scripts/build.ts"`, `"clean:generated": "rm -rf src/icons"`, and `"clean:dist": "rm -rf dist"`. Run codegen as the first step of `build`; do not add `pretest` or `pretypecheck` hooks.
 4. **Expose generated components through the package root and direct subpaths.** React re-exports its generated `src/icons/index.ts` root barrel from `src/index.ts` (`export * from "./icons/index.js"`), so `import { Bold } from "@appica/icons-react"` resolves, and the same package maps `@appica/icons-react/icons/<category>/<icon>` to matching JavaScript and declaration files under `dist/icons/`.
 
 [`packages/react/scripts/build.ts`](./packages/react/scripts/build.ts) is the reference implementation — the examples below show only the hooks that differ per framework.
-
-**Svelte 5** — every icon is a thin wrapper around `Icon.svelte` that receives `innerSvg` plus the icon's presentation attributes and spreads consumer props last, so they win. The stroke width goes through `Icon`'s camelCase `strokeWidth` prop — a kebab-case `stroke-width` would bypass it and override the consumer's `strokeWidth`. The `$props()` annotation is required: without it, svelte-package emits declarations that leave the icon's props untyped. Direct imports map `./icons/*` to the `.svelte` files and their `.svelte.d.ts` declarations, since svelte-package emits no per-icon `.js`:
-
-```ts
-generateIcons({
-  packageDir: PACKAGE_DIR,
-  extension: '.svelte',
-  renderIconFile({ innerSvg }) {
-    // Emit non-default presentation attrs as props on the <Icon> wrapper — `strokeWidth`, then
-    // kebab-case `stroke-linecap`, … (mirrors how the react template maps record.rootAttrs), then:
-    return (
-      `<script lang="ts">\n` +
-      `  import Icon from "../../Icon.svelte";\n` +
-      `  import type { IconProps } from "../../iconProps.js";\n\n` +
-      `  let props: Omit<IconProps, "innerSvg"> = $props();\n\n` +
-      `  const innerSvg = ${JSON.stringify(innerSvg)};\n` +
-      `</script>\n\n` +
-      `<Icon\n` +
-      `  innerSvg={innerSvg}\n` +
-      `  {...props}\n` +
-      `/>\n`
-    )
-  },
-})
-```
-
-The package's `svelte.config.js` preprocesses with `vitePreprocess({ script: true })`, so the published components are plain JavaScript: with current dependencies, Svelte before 5.14.3 can't compile TypeScript in `.svelte` files. The `packaging` test fails if TypeScript reaches the output.
 
 **Vue** — illustrative (the vue package is planned but not implemented yet; adapt the hooks to the component style you choose):
 

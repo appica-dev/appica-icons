@@ -23,7 +23,7 @@ export interface CodegenTarget {
   packageDir: string
   /** Source SVG directory; defaults to the repository's <repo>/assets. */
   assetsDir?: string
-  /** Output file extension for icon component files, e.g. ".tsx" or ".svelte". */
+  /** Output file extension for icon component files, e.g. ".tsx" or ".vue". */
   extension: string
   /** Renders the full content of one icon component file from its record. */
   renderIconFile(record: IconRecord): string
